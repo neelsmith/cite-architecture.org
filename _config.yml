@@ -1,0 +1,32 @@
+# Dependencies
+kramdown:
+  input: GFM
+#markdown: redcarpet
+
+highlighter: pygments
+
+#:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            The CITE Architecture
+description:      'Central home page for git repositories for the CITE architecture'
+paginate_path: "/reviews/page:num"
+url:
+baseurl: 'http://cite-architecture.github.io/'
+
+author:
+  name:           'Neel Smith'
+
+paginate:         5
+
+
+# Links:
+links:
+  - title: Live specifications
+    url: /living-docs
+     
+     
+
