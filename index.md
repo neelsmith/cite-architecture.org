@@ -21,7 +21,7 @@ Public repositories for our CITE architecture on github include:
 
 
 
-- hocuspocus for working with a text repository
+- `hocuspocus` for working with a text repository ([repository](https://github.com/cite-architecture/hocuspocus);  [live specifications](living-docs/specs/hocuspocus/Hocuspocus.html))
 - prestochango for working a repository of structured collections
 - nysi for working with an image repository
 - abracadabra for working with CITE graphs
