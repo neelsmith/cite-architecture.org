@@ -35,9 +35,3 @@ Public repositories for our CITE architecture on github include:
 - ctsvalidator, a harness for running a suite of tests against a CTS installation
 - citedownmgr, a gradle build system for converting texts in citedown notation (markdown extended with URN references) to generic markdown
 
-## Living documentation ##
-
-
-Live specs built with concordion:
-
-- [hocuspocus](living-docs/specs/hocuspocus/Hocuspocus.html)
