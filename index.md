@@ -13,22 +13,27 @@ Public repositories for our CITE architecture on github include:
 ### Standards ###
 
 
-- [CTS URNs](https://github.com/cite-architecture/ctsurn_spec)
-- [Canonical Text Services protocol](https://github.com/cite-architecture/cts_spec)
+- **CTS URN** identifier ([repository](https://github.com/cite-architecture/ctsurn_spec))
+- **Canonical Text Services** protocol ([repository](https://github.com/cite-architecture/cts_spec))
 
-## Code libraries for working with CITE repositories ##
+
+### Code libraries for working with CITE repositories ###
+
+
 
 - hocuspocus for working with a text repository
 - prestochango for working a repository of structured collections
 - nysi for working with an image repository
 - abracadabra for working with CITE graphs
 
-## Implementations of the CITE service suite
+### Implementations of the CITE service suite
 
 - citemgr: utilities for working with CITE repositories, including generating RDF representations of repositories
 - citeservlet: a servlet providing all four of the CITE services
 
-## Other utilities ##
+### Other utilities ###
+
+
 
 
 - cite, a JVM library for working with URNs and TextInventories
