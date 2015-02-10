@@ -36,7 +36,7 @@ Public repositories for our CITE architecture on github include:
 
 
 
-- `cite`, a JVM library for working with URNs and TextInventories ([source repository](https://github.com/cite-architecture/cite))
+- `cite`, a JVM library for working with URNs and TextInventories ([source repository](https://github.com/cite-architecture/cite);  [web site](http://cite-architecture.github.io/cite/) including [live specifications](http://cite-architecture.github.io/cite/specs/cite/Cite.html) and [API docs](http://cite-architecture.github.io/cite/api/).)
 - `ctsvalidator`, a harness for running a suite of tests against a CTS installation ([source repository](https://github.com/cite-architecture/ctsvalidator))
 - `citedownmgr`, a gradle build system for converting texts in citedown notation (markdown extended with URN references) to generic markdown ([source repository](https://github.com/cite-architecture/citedownmgr)
 
