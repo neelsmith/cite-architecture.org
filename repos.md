@@ -21,13 +21,15 @@ Public repositories on github for work related to the CITE architecture include 
 - `hocuspocus` for working with a text repository:
     - [source repository](https://github.com/cite-architecture/hocuspocus)
     - [web site](http://cite-architecture.github.io/hocuspocus/) including [live specifications](http://cite-architecture.github.io/hocuspocus//specs/hocuspocus/Hocuspocus.html) and [API docs](http://cite-architecture.github.io/hocuspocus/api/)
-- `prestochango` for working a repository of structured collections ([source repository](https://github.com/cite-architecture/prestochango))
+- `prestochango` for working with a repository of structured collections ([source repository](https://github.com/cite-architecture/prestochango))
 - `nysi` for working with an image repository  ([source repository](https://github.com/cite-architecture/nysi))
 - `abracadabra` for working with CITE graphs ([source repository](https://github.com/cite-architecture/abracadabra))
 
 ### Tools for working with the CITE service suite
 
-- `citemgr`: utilities for working with CITE repositories, including generating RDF representations of repositories ([source repository](https://github.com/cite-architecture/citemgr))
+- `citemgr`: utilities for working with CITE repositories, including generating RDF representations of repositories
+    - [source repository](https://github.com/cite-architecture/citemgr)
+    - [web site](http://cite-architecture.github.io/citemgr/) including [live specifications](http://cite-architecture.github.io/citemgr/specs/citeMgr/CiteMgr.html) and [API docs](http://cite-architecture.github.io/citemgr/api/)
 - `citeservlet`: a servlet providing all four of the CITE services ([source repository](https://github.com/cite-architecture/citeservlet))
 
 ### Other utilities ###
