@@ -10,13 +10,17 @@ Public repositories on github for work related to the CITE architecture include 
 ### Utilities implementing basic CITE concepts ###
 
 
-- `cite`, a JVM library for working with URNs and TextInventories ([source repository](https://github.com/cite-architecture/cite);  [web site](http://cite-architecture.github.io/cite/) including [live specifications](http://cite-architecture.github.io/cite/specs/cite/Cite.html) and [API docs](http://cite-architecture.github.io/cite/api/).)
+- `cite`, a JVM library for working with URNs and TextInventories:
+    - [source repository](https://github.com/cite-architecture/cite)
+    - [web site](http://cite-architecture.github.io/cite/) including [live specifications](http://cite-architecture.github.io/cite/specs/cite/Cite.html) and [API docs](http://cite-architecture.github.io/cite/api/)
 
 
 ### Code libraries for working with CITE repositories ###
 
 
-- `hocuspocus` for working with a text repository ([source repository](https://github.com/cite-architecture/hocuspocus);  [web site](http://cite-architecture.github.io/hocuspocus/) including [live specifications](http://cite-architecture.github.io/hocuspocus//specs/hocuspocus/Hocuspocus.html)).
+- `hocuspocus` for working with a text repository:
+    - [source repository](https://github.com/cite-architecture/hocuspocus)
+    - [web site](http://cite-architecture.github.io/hocuspocus/) including [live specifications](http://cite-architecture.github.io/hocuspocus//specs/hocuspocus/Hocuspocus.html) and [API docs](http://cite-architecture.github.io/hocuspocus/api/)
 - `prestochango` for working a repository of structured collections ([source repository](https://github.com/cite-architecture/prestochango))
 - `nysi` for working with an image repository  ([source repository](https://github.com/cite-architecture/nysi))
 - `abracadabra` for working with CITE graphs ([source repository](https://github.com/cite-architecture/abracadabra))
