@@ -10,7 +10,7 @@ Christopher Blackwell and Neel Smith originally developed the CITE architecture 
 
 
 - The **CTS URN** identifier:  [web site](http://cite-architecture.github.io/ctsurn_spec/) ([github source repository](https://github.com/cite-architecture/ctsurn_spec)).
-- The **Canonical Text Services** protocol ([repository](https://github.com/cite-architecture/cts_spec))
+- The **Canonical Text Services** protocol:  [web site](http://cite-architecture.github.io/cts_spec/) ([github source repository](https://github.com/cite-architecture/cts_spec))
 
 
 
