@@ -48,5 +48,7 @@ Public repositories on github for work related to the CITE architecture include 
 ### Other utilities ###
 
 - `ctsvalidator`, a harness for running a suite of tests against a CTS installation ([source repository](https://github.com/cite-architecture/ctsvalidator))
-- `citedownmgr`, a gradle build system for converting texts in citedown notation (markdown extended with URN references) to generic markdown ([source repository](https://github.com/cite-architecture/citedownmgr)
+- `citedownmgr`, a gradle build system for working with a repository of texts in citedown notation (markdown extended with URN references) 
+    -  [source repository](https://github.com/cite-architecture/citedownmgr)
+    -  [web site](http://cite-architecture.github.io/citedownmgr/)
 
