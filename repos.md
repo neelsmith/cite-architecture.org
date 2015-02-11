@@ -25,6 +25,17 @@ Public repositories on github for work related to the CITE architecture include 
 - `nysi` for working with an image repository  ([source repository](https://github.com/cite-architecture/nysi))
 - `abracadabra` for working with CITE graphs ([source repository](https://github.com/cite-architecture/abracadabra))
 
+
+
+### Implementations of the CITE service suite ###
+
+
+- `sparqlcts`: implementation of the CTS protocol using a SPARQL end point
+    - [source repository](https://github.com/cite-architecture/sparqlcts)
+    - [web site](http://cite-architecture.github.io/sparqlcts/) including [live specifications](http://cite-architecture.github.io/sparqlcts/specs/citeverbs/CiteVerbs.html) and [API docs](http://cite-architecture.github.io/sparqlcts/api/)
+
+
+
 ### Tools for working with the CITE service suite
 
 - `citemgr`: utilities for working with CITE repositories, including generating RDF representations of repositories
