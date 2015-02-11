@@ -23,7 +23,9 @@ Public repositories on github for work related to the CITE architecture include 
     - [web site](http://cite-architecture.github.io/hocuspocus/) including [live specifications](http://cite-architecture.github.io/hocuspocus//specs/hocuspocus/Hocuspocus.html) and [API docs](http://cite-architecture.github.io/hocuspocus/api/)
 - `prestochango` for working with a repository of structured collections ([source repository](https://github.com/cite-architecture/prestochango))
 - `nysi` for working with an image repository  ([source repository](https://github.com/cite-architecture/nysi))
-- `abracadabra` for working with CITE graphs ([source repository](https://github.com/cite-architecture/abracadabra))
+- `abracadabra` for working with CITE graphs 
+    - [source repository](https://github.com/cite-architecture/abracadabra)
+    - [web site](http://cite-architecture.github.io/abracadabra/) including [live specifications](http://cite-architecture.github.io/abracadabra/specs/abracadabra/Abracadabra.html) and [API docs](http://cite-architecture.github.io/abracadabra/api)
 
 
 

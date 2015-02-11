@@ -13,7 +13,7 @@ permalink:        pretty
 # Setup
 title:            The CITE Architecture
 tagline: Technology-independent, machine-actionable citation of scholarly resources
-description:      'Central home page for git repositories for the CITE architecture'
+description:      'Web site for citation standards, implementations of standards, and supporting tools'
 paginate_path: "/reviews/page:num"
 url:
 baseurl: 'http://cite-architecture.github.io/'

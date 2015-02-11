@@ -7,7 +7,8 @@ Links to the output of testing formal specifications including acceptance tests 
 
 
 - [cite library](http://cite-architecture.github.io/cite/specs/cite/Cite.html)
-- [hocuspocus](http://cite-architecture.github.io/hocuspocus//specs/hocuspocus/Hocuspocus.html)
+- [hocuspocus](http://cite-architecture.github.io/hocuspocus/specs/hocuspocus/Hocuspocus.html)
+- [abracadabra](http://cite-architecture.github.io/abracadabra/specs/abracadabra/Abracadabra.html)
 - [sparqlcts](http://cite-architecture.github.io/sparqlcts/specs/citeverbs/CiteVerbs.html)
 - [citemgr](http://cite-architecture.github.io/citemgr/specs/citeMgr/CiteMgr.html)
 
