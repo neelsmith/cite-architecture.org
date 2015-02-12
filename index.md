@@ -1,9 +1,13 @@
 ---
 title: The CITE Architecture
-layout: page
+layout: home
 ---
 
-Christopher Blackwell and Neel Smith originally developed the CITE architecture to meet the needs of [the Homer Multitext project](http://www.homermultitext.org).
+
+### Background ###
+
+
+Christopher Blackwell and Neel Smith originally developed the CITE architecture to meet the needs of [the Homer Multitext project](http://www.homermultitext.org).  Read more [about the CITE architecture](about).
 
 
 ### Standards ###
