@@ -43,7 +43,10 @@ Public repositories on github for work related to the CITE architecture include 
 - `citemgr`: utilities for working with CITE repositories, including generating RDF representations of repositories
     - [source repository](https://github.com/cite-architecture/citemgr)
     - [web site](http://cite-architecture.github.io/citemgr/) including [live specifications](http://cite-architecture.github.io/citemgr/specs/citeMgr/CiteMgr.html) and [API docs](http://cite-architecture.github.io/citemgr/api/)
-- `citeservlet`: a servlet providing all four of the CITE services ([source repository](https://github.com/cite-architecture/citeservlet))
+- `citeservlet`: a servlet providing all four of the CITE services
+    -  [web site](http://cite-architecture.github.io/citeservlet/) with documentation
+    -  [source repository](https://github.com/cite-architecture/citeservlet)
+   
 
 ### Other utilities ###
 
