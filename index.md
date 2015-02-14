@@ -20,5 +20,5 @@ Christopher Blackwell and Neel Smith originally developed the CITE architecture 
 
 ### Implementations ###
 
-
-See [an overview of github repositories](repos) with work related to the CITE architecture.
+- See [an overview of github repositories](repos) with work related to the CITE architecture.
+- See [live specifications](living-docs) from a selection of implementations.

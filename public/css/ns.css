@@ -4,15 +4,19 @@
     border: 1px silver solid;
     padding-left: 15px;
     padding-right: 15px;
-    margin: 15px;
-}
-
-.datelabel {
-   font-style: italic;	   
+    margin-left: 15px;
 }
 
 .posts li {
        list-style-type: none;
-        text-indent: -1.5em; 
-	margin-left: 1.5em; 
+       text-indent: -1.5em; 
+       margin-left: 1.5em; 
+}
+
+.posts h3 {
+       margin-top: 0.2em;
+}      
+
+.datelabel {
+   font-style: italic;	   
 }
