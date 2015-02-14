@@ -26,7 +26,9 @@ paginate:         5
 
 # Links:
 links:
-  - title: Github repositories
+  - title: News
+    url: /news
+  - title: Implementations
     url: /repos
   - title: Live specifications
     url: /living-docs
