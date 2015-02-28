@@ -23,7 +23,7 @@ Public repositories on github for work related to the CITE architecture include 
     - [web site](http://cite-architecture.github.io/hocuspocus/) including [live specifications](http://cite-architecture.github.io/hocuspocus//specs/hocuspocus/Hocuspocus.html) and [API docs](http://cite-architecture.github.io/hocuspocus/api/)
 - `prestochango` for working with a repository of structured collections:
     -  [source repository](https://github.com/cite-architecture/prestochango)
-    -  [web site](http://cite-architecture.github.io/prestochango/)
+    -  [web site](http://cite-architecture.github.io/prestochango/) including [live specifications](http://cite-architecture.github.io/prestochango/specs/prestochango/PrestoChango.html) and [API docs](http://cite-architecture.github.io/prestochango/api)
 - `nysi` for working with an image repository
     -  [source repository](https://github.com/cite-architecture/nysi)
     -  [web site](http://cite-architecture.github.io/nysi/)
