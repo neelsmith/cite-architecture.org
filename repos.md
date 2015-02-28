@@ -26,7 +26,7 @@ Public repositories on github for work related to the CITE architecture include 
     -  [web site](http://cite-architecture.github.io/prestochango/) including [live specifications](http://cite-architecture.github.io/prestochango/specs/prestochango/PrestoChango.html) and [API docs](http://cite-architecture.github.io/prestochango/api)
 - `nysi` for working with an image repository
     -  [source repository](https://github.com/cite-architecture/nysi)
-    -  [web site](http://cite-architecture.github.io/nysi/)
+    -  [web site](http://cite-architecture.github.io/nysi/) including [live specifications](http://cite-architecture.github.io/prestochango/specs/nysi/Nysi.html) and [API docs](http://cite-architecture.github.io/nysi/api)
 - `abracadabra` for working with CITE graphs 
     - [source repository](https://github.com/cite-architecture/abracadabra)
     - [web site](http://cite-architecture.github.io/abracadabra/) including [live specifications](http://cite-architecture.github.io/abracadabra/specs/abracadabra/Abracadabra.html) and [API docs](http://cite-architecture.github.io/abracadabra/api)
