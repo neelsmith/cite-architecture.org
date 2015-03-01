@@ -13,7 +13,7 @@ Links to the output of testing formal specifications including acceptance tests 
 
 
 - [hocuspocus](http://cite-architecture.github.io/hocuspocus/specs/hocuspocus/Hocuspocus.html)
-- [prestochango](http://cite-architecture.github.io/prestochango/specs/prestochango/PrestoChango.html)
+- [prestochango](http://cite-architecture.github.io/prestochango/specs/prestochango/Prestochango.html)
 - [nysi](http://cite-architecture.github.io/nysi/specs/nysi/Nysi.html)
 - [abracadabra](http://cite-architecture.github.io/abracadabra/specs/abracadabra/Abracadabra.html)
 
