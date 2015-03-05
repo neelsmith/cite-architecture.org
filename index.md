@@ -9,7 +9,7 @@ layout: home
 
 
 - [the CITE architecture](about)
-- [CTS URNs](ctsurns)
+- [CTS URNs](ctsurn)
 - the [Canonical Text Service](cts)
 
 

@@ -5,4 +5,9 @@ layout: page
 
 
 
-- The **CTS URN** identifier:  [web site](http://cite-architecture.github.io/ctsurn_spec/) ([github source repository](https://github.com/cite-architecture/ctsurn_spec)).
+CTS URNs provide  permanent canonical references to texts or passages of text.  CTS URNs are a kind of Uniform Resource Name (URN). To quote from RFC 2141:
+
+>Uniform Resource Names (URNs) are intended to serve as persistent, location-independent, resource identifiers.
+
+
+See the [formal specification](http://cite-architecture.github.io/ctsurn_spec/) (or the [github source repository](https://github.com/cite-architecture/ctsurn_spec)).
