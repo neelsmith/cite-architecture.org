@@ -28,12 +28,10 @@ paginate:         5
 links:
   - title: News
     url: /news
-  - title: Implementations
+  - title: Code
     url: /repos
   - title: Live specifications
     url: /living-docs
-  - title: About..
-    url: /about
      
      
 
