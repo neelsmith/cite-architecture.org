@@ -17,18 +17,29 @@ See some [proposed modifications](proposed).
 
 ## Implementations and code tools ##
 
+Behind the abstract OHCO2 model of the CTS URN, implementations of the CTS protocol use a variety of backend data models:
 
-- A JVM suite:
-    - a library for working with fundamenal [notation of the CITE architecture](http://cite-architecture.github.io/cite/), including CTS URNs
-    - [hocuspocus](http://cite-architecture.github.io/hocuspocus/), a system for managing a corpus of citable texts (also incorporated in [citemgr](http://cite-architecture.github.io/citemgr/), a system managing a suite of CITE repositories)
-    - [sparqlcts](https://github.com/cite-architecture/sparqlcts), an implementation using a SPARQL endpoint as its data source
-- A Python suite: 
-    - [Capitains-Nemo](https://github.com/PerseusDL/Capitains-Nemo) (sic), an angularJs app for browsing CTS APIs
-    - [Capitains-Sparrow](https://github.com/PerseusDL/Capitains-Sparrow), a CTS abstraction in JS with jQuery plugins
-    - [Capitains-Toolkit](https://github.com/PerseusDL/Capitains-Toolkit) toolkit and implementation using eXistDB for its data source
+### Tree model ###
 
-Others:
 
 - [Alpheios](http://alpheios.net/content/alpheios-cts-api ) uses eXist and XQuery (from java?)
+- [Capitains-Nemo](https://github.com/PerseusDL/Capitains-Nemo) (sic), an angularJs app for browsing CTS APIs
+- [Capitains-Sparrow](https://github.com/PerseusDL/Capitains-Sparrow), a CTS abstraction in JS with jQuery plugins
+- [Capitains-Toolkit](https://github.com/PerseusDL/Capitains-Toolkit) toolkit and implementation using eXistDB for its data source
+
+
+
+
+### Directed graph ###
+
+
+
+- a library for working with fundamenal [notation of the CITE architecture](http://cite-architecture.github.io/cite/), including CTS URNs
+- [hocuspocus](http://cite-architecture.github.io/hocuspocus/), a system for managing a corpus of citable texts (also incorporated in [citemgr](http://cite-architecture.github.io/citemgr/), a system managing a suite of CITE repositories)
+- [sparqlcts](https://github.com/cite-architecture/sparqlcts), an implementation using a SPARQL endpoint as its data source
+
+
+### Relational model 
+
 - The Billion Words project has implemented CTS with a MySQL backend (language unknown, but see [this paper](http://aclweb.org/anthology//W/W14/W14-0601.pdf) by Tiepmar et al.)
 
