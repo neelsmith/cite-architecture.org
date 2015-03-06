@@ -9,8 +9,9 @@ layout: home
 
 
 - [the CITE architecture](about)
-- [CTS URNs](ctsurn)
-- the [Canonical Text Service](cts)
+- [CTS URNs](ctsurn) and the [Canonical Text Service](cts)
+- [CITE Object URNs](citeurn) and the [CITE Collection Service](citecoll), including extensions
+- [ORCA](orca), a service for aligned texts and analyses
 
 
 
