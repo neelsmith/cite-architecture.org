@@ -17,7 +17,7 @@ See some [proposed modifications](proposed).
 
 ## Implementations and code tools ##
 
-Behind the abstract OHCO2 model of the CTS URN, implementations of the CTS protocol use a variety of backend data models:
+Behind the abstract OHCO2 model of the CTS URN, implementations of the CTS protocol use a variety of backend data models.
 
 ### Tree model ###
 
@@ -41,5 +41,7 @@ Behind the abstract OHCO2 model of the CTS URN, implementations of the CTS proto
 
 ### Relational model 
 
-- The Billion Words project has implemented CTS with a MySQL backend (language unknown, but see [this paper](http://aclweb.org/anthology//W/W14/W14-0601.pdf) by Tiepmar et al.)
+- The Billion Words project has implemented [CTS with a MySQL backend](http://www.urncts.de/)
+
+
 

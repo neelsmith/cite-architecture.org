@@ -10,9 +10,8 @@ CTS URNs provide  permanent canonical references to texts or passages of text.  
 >Uniform Resource Names (URNs) are intended to serve as persistent, location-independent, resource identifiers.
 
 
-The semantics of CTS URNs capture the [OHCO2](ohco2) model of text.
+## Links
 
-## Specification ##
-
-
-See the [formal specification](http://cite-architecture.github.io/ctsurn_spec/) (or the [github source repository](https://github.com/cite-architecture/ctsurn_spec)).
+-  The semantics of CTS URNs capture the [OHCO2](ohco2) model of text.
+-  See an [overview](overview) of CTS URNs
+-  See the [formal specification](http://cite-architecture.github.io/ctsurn_spec/) of syntax and semantics (or the [github repository with source](https://github.com/cite-architecture/ctsurn_spec) for the specification in markdown).
