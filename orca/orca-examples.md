@@ -1,14 +1,12 @@
----
-title: "Examples of ORCA"
-layout: page
----
-
+# ORCA: OHCO2-Realigned Citeable Analyses
 
 ## Abstract 
 
 >  The potential analyses of any text are infinite in number. We describe a framework for attaching analyses to passages of canonically cited texts so that the analyses are citable, aligned with the analyzed text, and thus aligned with all other analyses of that text; the analyses need not align with the citation-hierarchy of the analyzed text.
 
 ## Overview
+
+### Problem
 
 ~~~
 
@@ -22,7 +20,7 @@ layout: page
 
 ~~~  *Iliad* 1.1--1.7
 
-A human being, reading this text, will inevitably engage in a number of *simultaneous* acts of analysis. A sophisticated reader, experienced in Greek epic poetry, will, without much conscious thought analyze the text in the following ways:
+A human being, reading this text, will inevitably engage in a number of *simultaneous* acts of analysis. A sophisticated reader, experienced in Greek epic poetry, will, without much conscious thought, analyze the text in the following ways:
 
 - Lexical tokens: each word; its morphology; its complex lexicography.
 - Named entities: some words are names: Achilles, Zeus. Some are complex, pointing to more than one person: "Son of Peleus".
@@ -35,11 +33,49 @@ A human being, reading this text, will inevitably engage in a number of *simulta
 
 We have traditionally worked with this text according to its canonical scheme of citation: poetic book, poetic line. We could point to 1.1 as the first poetic line of the poem, or 1.1--1.7 as containing the first syntactic sentence of the poem. Scholarship depends on these *declarative* identifications of the objects of study, in the form of *citation*. 
 
+Most of the above examples, however, cannot be cited precisely using the canonical scheme of citation. The first half-line---μῆνιν ἄειδε θεὰ---falls *within* 1.1, but is not the same as 1.1. The first syntactical clause---μῆνιν ἄειδε θεὰ Πηληϊάδεω Ἀχιλῆος οὐλομένην,---includes all of 1.1, and the first word of 1.2. There is a noun-phrase, the direct object of the verb ἄειδε, that includes the first word of 1.1 and the first word of 1.2, but nothing in between---μῆνιν… οὐλομένην.
 
+We could *add to* the canonical citation scheme a further level, making it Book, Line, Word. Thus our first syntactical clause---μῆνιν ἄειδε θεὰ Πηληϊάδεω Ἀχιλῆος οὐλομένην,---could be cited as 1.1.1--1.2.1 (Book 1, line 1, word 1, *through* Book 1, line 2, word 1).
 
+But we would quickly find this limiting. The first metrical foot, a dactyl, includes the first word of 1.1 and the first syllable of the second word: μῆνιν ἄ…. 
 
+In all of these examples, we need to *declare* some combination of the citation hierarchy *and* the content. Our metricl-foot example could be expressed as "1.1@μ--1.1@α", or more precisely (since there might be more than one *mu* and more than one *alpha* in a line, "1.1@μῆνιν[1]--1.1@α[1]", that is, "1.1, the first instance of the string μῆνιν, through 1.1, the first instance of the string α."
 
+But in the realm of electronic texts, things are more complex yet. 
 
+~~~
+
+τιμήσ<choice><sic>ῃ</sic><corr>ει</corr><choice>, ὀλέσῃ δὲ πολέας ἐπὶ νηυσὶν Ἀχαιῶν.
+
+~~~ *Iliad* 2.4 (Venetus A)
+
+This line of a transcription of the *Iliad*, 2.4, as it appears on the Venetus A manuscript, is marked up to show that the scribe offered two alternative endings for the verb "he might honor": τιμήσῃ and τιμήσει.
+
+What is the content here? If we want to cite "the two parallel verbs", and we cited "2.4@τιμήσῃ[1]--2.4@ὀλέσῃ[1]", as proposed above, the *textual content of the electronic edition* would give us: τιμήσῃει, ὀλέσῃ. This does not make any sense. 
+
+And how would we cite our noun-phrase---μῆνιν… οὐλομένην? 1.1.1---1.2.1 would include all the words in between the noun μῆνιν and the participle οὐλομένην. "1.1.1 and 1.2.1" is not a citation, but two citations. 
+
+## Solution
+
+None of these problems are serious impediments to human readers, because we navigate among different "reading scenarios" all the time. And we can talk about these scenarios: "The verbs τιμήσῃ and τιμήσει in 2.4 are parallel, taking the `<sic>` element from the `<choice>`, and ignoring the contents of the `<corr>` element." "In 1.1--1.2, read μῆνιν, skip over everything else in the line, read οὐλομένην, and ignore the rest."
+
+We can give instructions for analyzing a given text, specifying for each analysis what counts as 'text', what should be ignored, and what the basic units are: line, word, character. 
+
+This is how most digital humanities projects have approached the problem of analysis of texts: grab a chunk of text defined by the citation scheme, and programmatically *find* (highlight, underline, mark) portions of that text according to some analytical principal. For difficult situations, like the markup above, applications might include rules for including certain elements and excluding others in various combinations under various circumstances.
+
+Our goal is to show how this process that human readers do intuitively and that software can do algorithmically, can be done *declaratively*.
+
+The goal is to start with a text, of whatever complexity, and allow an open-ended number of analyses of that text that are explicit, unambiguous, and flexible, admitting analyses of small or large chunks of text, non-contiguous passages, inclusion or exclusion of markup according to specified rules. We want these analysis to be, themselves, citable canonically. We want them to align with the text analyzed, and so with each other in any combination. And of course, the point of all of this is to *say something* about the portion of the text we are analyzing: "this is a noun phrase", "this is a metrical foot, a dactyl", &c.
+
+We call this solution ORCA, for OHCO2-Realigned Citable Analyses. It is based on the CTS-URN standard for citation of text, which captures semantics of a text as an Ordered Hierarchy of Citation Objects (OHCH2) [^ohco2].
+
+## ORCA
+
+To capture any analysis of a given edition of a text, and to work with that analysis in terms of canonical citation, we identify five pieces of information. We give a brief description of these five pieces of information, and then illustrate with specific examples.
+
+### Analyzed Text
+
+This is a citation, using a CTS URN, to the specific text we are analyzing. The citation may be to a single passage or to a range. It may include a sub-string reference. For non-contiguous passages of text, as in quotations interrupted by *verba dicendi*, the **analyzed text** citation will be a range that includes all parts of the text identified. 
 
 
 
