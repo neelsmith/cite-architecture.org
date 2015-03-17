@@ -232,11 +232,33 @@ We call this solution ORCA, for OHCO2-Realigned Citable Analyses. It is based on
 
 | Field | Value |
 |-------|-------|
-| Analysis Record |	`urn:cite:histfrag:arist.577` |
+| Analysis Record |	`urn:cite:histfragDipl:arist.577` |
 | Analysis | `urn:cite:histfrag:arist.577` |
 | Analyzed Text | `urn:cts:greekLit:tlg0007.tlg012.perseus-grc1:26.3@ὑπὸ[1]-26.3@πρότερον[1]`
 | Analytical Exemplar URN | `urn:cts:greekLit:tlg0007.tlg012.perseus-grc1.histfrag:26.3.1` |
 | Text-Content | `ὑπὸ δὲ τοῦ Μελίσσου καὶ Περικλέα αὐτὸν ἡττηθῆναι ναυμαχοῦντα πρότερον` | 
+
+
+**Or, another exemplar that promotes the quotation to direct speech:**
+
+| Field | Value |
+|-------|-------|
+| Analysis Record |	`urn:cite:histfragNormal:arist.577` |
+| Analysis | `urn:cite:histfrag:arist.577` |
+| Analyzed Text | `urn:cts:greekLit:tlg0007.tlg012.perseus-grc1:26.3@ὑπὸ[1]-26.3@πρότερον[1]`
+| Analytical Exemplar URN | `urn:cts:greekLit:tlg0007.tlg012.perseus-grc1.histfragNormal:26.3.1` |
+| Text-Content | `ὑπὸ δὲ τοῦ Μελίσσου καὶ Περικλῆς αὐτὸς ἡττήθη ναυμαχῶν πρότερον` | 
+
+
+| URN | `urn:cite:histfrag:arist.577` |
+|-----|-----|
+| Type |  "Quotation" |
+| Genre | "Prose" |
+| Source | "Aristotle" |
+| Auth |  M. Berti |
+| Date |  ??? |
+| Notes | "…" |	
+
 
 ## Notes, Apothegmata, &c.
 
@@ -246,6 +268,8 @@ We call this solution ORCA, for OHCO2-Realigned Citable Analyses. It is based on
 
 - When the *analysis* is unique (*e.g.* "The first clause of the *Iliad* in the "msA" edition."), then the `Analysis Record` (a URN) and the `Analysis` (a URN) will be **identical**.
 - When the *analysis* is not unique (*e.g.* "verb", or "dactyl"),  the `Analysis Record` (a URN) and the `Analysis` (a URN) will be **different**.
+
+> "CTS URNs can *identify* a text using the substring annotation "@…", but *retrieval* is by citation alone."
 
 ### Important
 
