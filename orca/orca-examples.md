@@ -69,6 +69,20 @@ The goal is to start with a text, of whatever complexity, and allow an open-ende
 
 We call this solution ORCA, for OHCO2-Realigned Citable Analyses. It is based on the CTS-URN standard for citation of text, which captures semantics of a text as an Ordered Hierarchy of Citation Objects (OHCH2) [^ohco2].
 
+## Data
+
+**Analysis Record** This is the CITE-URN identifying uniquely the pairing of analysis+text.
+
+**Analysis** This is a CITE-URN pointing to the analysis being attached to a text. It *may* be identical to the analysis record, 
+
+- When the *analysis* is unique (*e.g.* "The first clause of the *Iliad* in the "msA" edition."), then the `Analysis Record` (a URN) and the `Analysis` (a URN) will be **identical**.
+- When the *analysis* is not unique (*e.g.* "verb", or "dactyl"),  the `Analysis Record` (a URN) and the `Analysis` (a URN) will be **different**.
+
+**Analyzed Text** This is a CTS-URN, with or without a substring, which may be range, identifying the passage of text analyzed.
+
+**Analytical Exemplar URN** This is a CTS-URN used to construct an "analytical exemplar", which is a text *derived from the version identified by the Analyzed Text CTS-URN*, with *one additional level of citation-hierarchy*, each of whose leaf-nodes is an analysis. The Analytical Exemplar, when processed into the OHCO2 data model, will act like any other CTS text. The *text content* of each leaf node is…
+
+**Text-Content** This identifies the *text-content* of the leaf-nodes of the analytical exemplar. 
 
 # Examples
 
