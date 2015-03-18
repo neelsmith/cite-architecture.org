@@ -92,6 +92,7 @@ We call this solution ORCA, for OHCO2-Realigned Citable Analyses. It is based on
 
 | Field | Value |
 |-------|-------|
+| Sequence | `1` |
 | Analysis Record |	`urn:cite:hmt:lexTokens.1` |
 | Analysis | `urn:cite:hmt:lexTokens.1` |
 | Analyzed Text | `urn:cts:greekLit:tlg0012.tlg001.msA:1.1@μῆνιν[1]` |
@@ -100,6 +101,7 @@ We call this solution ORCA, for OHCO2-Realigned Citable Analyses. It is based on
 
 | Field | Value |
 |-------|-------|
+| Sequence | `2` |
 | Analysis Record |	`urn:cite:hmt:lexTokens.2` |
 | Analysis | `urn:cite:hmt:lexTokens.2` |
 | Analyzed Text | `urn:cts:greekLit:tlg0012.tlg001.msA:1.1@ἄειδε[1]` |
@@ -108,6 +110,7 @@ We call this solution ORCA, for OHCO2-Realigned Citable Analyses. It is based on
 
 | Field | Value |
 |-------|-------|
+| Sequence | `3` |
 | Analysis Record |	`urn:cite:hmt:lexTokens.3` |
 | Analysis | `urn:cite:hmt:lexTokens.3` |
 | Analyzed Text | `urn:cts:greekLit:tlg0012.tlg001.msA:1.1@θεὰ[1]` |
@@ -120,6 +123,7 @@ We call this solution ORCA, for OHCO2-Realigned Citable Analyses. It is based on
 
 | Field | Value |
 |-------|-------|
+| Sequence | `1` |
 | Analysis Record |	`urn:cite:hmt:lexTokens.1` |
 | Analysis | `urn:cite:hmt:lexTokens.1` |
 | Analyzed Text | `urn:cts:greekLit:tlg0012.tlg001.msN:1.1@μῆν[1]-1.1@ιν[1]` |
@@ -128,6 +132,7 @@ We call this solution ORCA, for OHCO2-Realigned Citable Analyses. It is based on
 
 | Field | Value |
 |-------|-------|
+| Sequence | `2` |
 | Analysis Record |	`urn:cite:hmt:lexTokens.2` |
 | Analysis | `urn:cite:hmt:lexTokens.2` |
 | Analyzed Text | `urn:cts:greekLit:tlg0012.tlg001.msN:1.1@ἄει[1]-1.1@δε[1]` |
@@ -136,6 +141,7 @@ We call this solution ORCA, for OHCO2-Realigned Citable Analyses. It is based on
 
 | Field | Value |
 |-------|-------|
+| Sequence | `3` |
 | Analysis Record |	`urn:cite:hmt:lexTokens.3` |
 | Analysis | `urn:cite:hmt:lexTokens.3` |
 | Analyzed Text | `urn:cts:greekLit:tlg0012.tlg001.msN:1.1@θεὰ[1]` |
@@ -150,6 +156,7 @@ We call this solution ORCA, for OHCO2-Realigned Citable Analyses. It is based on
 
 | Field | Value |
 |-------|-------|
+| Sequence | `1` |
 | Analysis Record |	`urn:cite:hmt:metricalAnalysis.1` |
 | Analysis | `urn:cite:hmt:meter.dactyl` |
 | Analyzed Text | `urn:cts:greekLit:tlg0012.tlg001.msA:1.1@μῆνιν[1]-1.1@ἄ[1]` |
@@ -158,8 +165,8 @@ We call this solution ORCA, for OHCO2-Realigned Citable Analyses. It is based on
 
 | Field | Value |
 |-------|-------|
+| Sequence | `2` |
 | Analysis Record |	`urn:cite:hmt:metricalAnalysis.2` |
-
 | Analysis | `urn:cite:hmt:meter.dactyl` |
 | Analyzed Text | `urn:cts:greekLit:tlg0012.tlg001.msA:1.1@ειδε[1]-1.1@θε[1]` |
 | Analytical Exemplar URN | `urn:cts:greekLit:tlg0012.tlg001.msA.feet:1.1.2` |
@@ -167,8 +174,8 @@ We call this solution ORCA, for OHCO2-Realigned Citable Analyses. It is based on
 
 | Field | Value |
 |-------|-------|
+| Sequence | `3` |
 | Analysis Record |	`urn:cite:hmt:metricalAnalysis.3` |
-
 | Analysis | `urn:cite:hmt:meter.spondee` |
 | Analyzed Text | `urn:cts:greekLit:tlg0012.tlg001.msA:1.1@ὰ[1]-1.1@Πη[1]` |
 | Analytical Exemplar URN | `urn:cts:greekLit:tlg0012.tlg001.msA.feet:1.1.3` |
@@ -181,6 +188,7 @@ We call this solution ORCA, for OHCO2-Realigned Citable Analyses. It is based on
 
 | Field | Value |
 |-------|-------|
+| Sequence | `N` |
 | Analysis Record |	`urn:cite:fu:pvSyntax.45` |
 | Analysis | `urn:cite:fu:pvSyntax.45` |
 | Analyzed Text | `urn:cts:greekLit:tlg0085.tlg003:21@οὔτε[1]` |
@@ -190,10 +198,11 @@ We call this solution ORCA, for OHCO2-Realigned Citable Analyses. It is based on
 
 | Field | Value |
 |-------|-------|
+| Sequence | `N+1` |
 | Analysis Record |	`urn:cite:fu:pvSyntax.46` |
 | Analysis | `urn:cite:fu:pvSyntax.46` |
 | Analyzed Text | `urn:cts:greekLit:tlg0085.tlg003:21@οὔτε[1]`	|
-| Analytical Exemplar URN | `urn:cts:greekLit:tlg0085.tlg003.synTok:17.3` |
+| Analytical Exemplar URN | `urn:cts:greekLit:tlg0085.tlg003.synTok:21.3` |
 | Text-Content | `τε` | 
 
 
@@ -218,6 +227,7 @@ We call this solution ORCA, for OHCO2-Realigned Citable Analyses. It is based on
 
 | Field | Value |
 |-------|-------|
+| Sequence | `1` |
 | Analysis Record |	`urn:cite:hmt:clauses.1` |
 | Analysis | `urn:cite:hmt:clauses.1` |
 | Analyzed Text | `urn:cts:greekLit:tlg0012.tlg001.msA:1.1-1.2@οὐλομένην[1]`	|
@@ -226,6 +236,7 @@ We call this solution ORCA, for OHCO2-Realigned Citable Analyses. It is based on
 
 | Field | Value |
 |-------|-------|
+| Sequence | `2` |
 | Analysis Record |	`urn:cite:hmt:clauses.1` |
 | Analysis | `urn:cite:hmt:clauses.1` |
 | Analyzed Text | `urn:cts:greekLit:tlg0012.tlg001.msA:1.1-1.2@[1]`	|
@@ -234,6 +245,7 @@ We call this solution ORCA, for OHCO2-Realigned Citable Analyses. It is based on
 
 | Field | Value |
 |-------|-------|
+| Sequence | `3` |
 | Analysis Record |	`urn:cite:hmt:clauses.2` |
 | Analysis | `urn:cite:hmt:clauses.2` |
 | Analyzed Text | `urn:cts:greekLit:tlg0012.tlg001.msA:1.2@ἣ[1]-1.2@ἔθηκε[1]`	|
@@ -246,6 +258,7 @@ We call this solution ORCA, for OHCO2-Realigned Citable Analyses. It is based on
 
 | Field | Value |
 |-------|-------|
+| Sequence | `N` |
 | Analysis Record |	`urn:cite:histfragDipl:arist.577` |
 | Analysis | `urn:cite:histfrag:arist.577` |
 | Analyzed Text | `urn:cts:greekLit:tlg0007.tlg012.perseus-grc1:26.3@ὑπὸ[1]-26.3@πρότερον[1]`
@@ -257,12 +270,14 @@ We call this solution ORCA, for OHCO2-Realigned Citable Analyses. It is based on
 
 | Field | Value |
 |-------|-------|
+| Sequence | `N` |
 | Analysis Record |	`urn:cite:histfragNormal:arist.577` |
 | Analysis | `urn:cite:histfrag:arist.577` |
 | Analyzed Text | `urn:cts:greekLit:tlg0007.tlg012.perseus-grc1:26.3@ὑπὸ[1]-26.3@πρότερον[1]`
 | Analytical Exemplar URN | `urn:cts:greekLit:tlg0007.tlg012.perseus-grc1.histfragNormal:26.3.1` |
 | Text-Content | `ὑπὸ δὲ τοῦ Μελίσσου καὶ Περικλῆς αὐτὸς ἡττήθη ναυμαχῶν πρότερον` | 
 
+### Analysis-Object
 
 | URN | `urn:cite:histfrag:arist.577` |
 |-----|-----|
