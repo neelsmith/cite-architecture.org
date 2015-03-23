@@ -5,7 +5,7 @@ layout: default
 <div class="posts">
 <h3>New</h3>
 <ul>
-  {% for post in site.posts limit: 3 %}
+  {% for post in site.posts limit: 2 %}
   <li>
   <span class="datelabel">{{ post.date | date: "%B %d, %Y" }}:</span>
       <a href="{{ post.url }}">{{ post.title }}</a>.
@@ -14,7 +14,7 @@ layout: default
   {% endfor %}
 </ul>
 
-<a href="/news">All news</a>
+<a href="/news">Older news</a>
 </div>
 
 
