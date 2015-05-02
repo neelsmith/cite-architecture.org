@@ -5,8 +5,7 @@ layout: page
 
 CITE Object URNs provide permanent canonical references to discrete objects in Collections. CITE Object URNs are a kind of Uniform Resource Name (URN).
 
+See:
 
-A draft formal specification is under development.  We plan to release it together with a test suite that can be used to validate candidate URNs.
-
-
+- the current draft of a [formal specification](http://cite-architecture.github.io/citeurn_spec/) for CITE Object URNs
 
