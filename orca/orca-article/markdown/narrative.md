@@ -349,7 +349,7 @@ For analyzing syntax, it is common to separate certain words, so for οὔτε, 
 
 \noindent We can unpack this. There are two clauses, identified by the *analysis \textsc{urn}s* `urn:cite:hmt:clauses.1` and `urn:cite:hmt:clauses.2`.
 
-There are three entries in our record of these two clauses. The first two both have `urn:cite:hmt:clauses.1` as their *Analysis Record* and their *Analysis* (because in this case, the analysis is unique: the first clause of this edition of the *Iliad*.[^notTheSame] 
+There are three entries in our record of these two clauses. The first two both have `urn:cite:hmt:clauses.1` as their *Analysis Record* and their *Analysis* (because in this case, the analysis is unique: the first clause of this edition of the *Iliad*.[^notTheSame])
 
 The **Analytical Exemplar \textsc{urn}s** are the key for understanding why we have two entries for the first clause. This analytical aligment is creating an **exemplar** that is tokenized and citeable according to clauses. The **analytical exemplar \textsc{urn}s**, and the aligned analyses, say:
 
