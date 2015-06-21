@@ -1,10 +1,10 @@
-# Use Cases \emph{\&} Infrastructure: Analytical Editions
+# ORCA: \textsc{Ohco2} Realigned Citeable Analyses
 
-Christopher Blackwell, Neel Smith. May, 2015.
+Christopher Blackwell, Neel Smith. June, 2015.
 
 ## Summary
 
-This document describes ongoing work on textual analysis for the Homer Multitext, and on text-reuse, textual history, and syntax that is a collaboration between Furman University and the Leipzig Open Greek and Latin project.
+This article describes ongoing work on textual analysis for the Homer Multitext, and on text-reuse, textual history, and syntax that is a collaboration between Furman University and the Leipzig Open Greek and Latin project.
 
 Our experience has shown that the model of "text" as and **ordered hierarchy of citation objects** (\textsc{ohco2}) allows us to express the semantics of a text in many different data formats.[@smith_applying_2009] We use \textsc{tei-xml} mainly as an archival format and for working with a text as it is being edited, using a very constrained subset of its elements---only those necessary for documenting the citation scheme, the editorial status of specific spans of text (unclear, added, corrected, &c.), and disamguating non-lexical content in the text (*e.g.* Greek letters used as numbers, fragments of words, personal names). 
 
@@ -23,6 +23,7 @@ The technological infrastructure that would most benefit this work would be an *
 What follows is a description of the approach to **analysis** that we have been able to develop to meet our need for multiple, mutually incompatible analyses of complex texts, and our desire that those analyses align to one another. The digital editions and exemplars derived from them can be entirely expressed as \textsc{rdf} statments, but these will inevitably number in the hundreds of millions.
 
 Some of these analyses will be the products of human editors. The Furman students working in Leipzig with Monica Berti are generating analyses of text-reuse in Athenaeus by hand, entering data in `.csv` files in GitHub. Others will be programmatically generated, such as lexical or metrical analyses across our corpus of Homeric epic. 
+
 
 
 ## Background: Analysis
@@ -51,7 +52,7 @@ In many ways, analysis of images is the least difficult:
 - The \textsc{roi}s can overlap.
 - So, a single image of a manuscript folio might have \textsc{roi}s defined that treat large regions---the main text-block, commentary text-blocks, illustrations---and very small regions---graphemes, punctuation. One \textsc{roi} can overlap another, or many, as when a region defines a "poetic line" on the manuscript, while other regions identify individual words, and another identifies a large stain.
 
-\noindent Similarly, annotation of geo-spatial data is infinitely flexible and granular, from the centimeter-scale mapping of a botanical garden to analysis that groups discrete finds scattered across an archaeological field-survey.
+\noindent Similarly, annotation of geo-spatial data is infinitely flexible and granular, from the centimeter-scale mapping of a botanical garden to analysis that groups Roman amphitheaters scattered across the Mediterranean World.
 
 ### Citation-Objects
 
@@ -78,11 +79,11 @@ Working with analyses of texts is more difficult.
 
 > `<l n="4">τιμήσ<choice><sic>ῃ</sic><corr>ει</corr><choice>, ὀλέσῃ δὲ πολέας ἐπὶ νηυσὶν Ἀχαιῶν.</l>`
 
-\noindent The citation is precise and explicit. The markup of the text is appropriate, too, in that it *documents* the Greek text. That is, it (a) captures the citation scheme, and (b) asserts the editorial status of the Greek text. In this case, the manuscript presents two different endings for the verb, "he might honor": -ῃ and -ει.
+\noindent The citation is precise and explicit. The markup of the text is appropriate, too, in that it *documents* the Greek text. That is, it (a) captures the citation scheme, and (b) asserts the editorial status of the Greek text. In this case, the manuscript presents two different endings for the verb, "he might honor": \textcolor{maroon}{-ῃ} and \textcolor{maroon}{-ει}.
 
 ### Analysis
 
-A human being, reading texts, will inevitably engage in a number of *simultaneous* acts of analysis. A sophisticated reader, experienced in Greek epic poetry, will, without much conscious thought, analyze the text in the following ways:
+A human being, reading texts, will inevitably engage in a number of simultaneous acts of analysis. A sophisticated reader, experienced in Greek epic poetry, will, without much conscious thought, analyze the text in the following ways:
 
 - Lexical tokens: each word; its morphology; its complex lexicography.
 - Named entities: some words are names: Achilles, Zeus. Some are complex, pointing to more than one person: "Son-of-Peleus".
@@ -93,10 +94,10 @@ A human being, reading texts, will inevitably engage in a number of *simultaneou
 - Metrical feet: dactyls and spondees, themselves made up of…
 - Syllables.
 
-\noindent *Iliad* 1.1–1.7 includes seven citable units, according to the canonical scheme of citation for this text. The seven constitute a single sentence. But beyond that, things get complicated:
+\noindent \emph{Iliad} 1.1–1.7 includes seven citable units, according to the canonical scheme of citation for this text. The seven constitute a single sentence. But beyond that, things get complicated:
 
 - First noun-phrase:  μῆνιν… οὐλομένην ("destructive wrath")
-- First clause: μῆνιν ἄειδε θεὰ Πηληϊάδεω Ἀχιλῆος οὐλομένην, ("Sing, goddess, of the destructive wrath of Achilles, son of Peleus")
+- First clause: μῆνιν ἄειδε θεὰ Πηληϊάδεω Ἀχιλῆος | οὐλομένην, ("Sing, goddess, of the destructive wrath of Achilles, son of Peleus")
 - Named Entity: Πηληϊάδεω Ἀχιλῆος ("Son-of-Peleus Achilles")
 - Named Entity?: Πηληϊάδεω (implies someone named "Peleus"?)
 - First metrical foot: μῆνιν ἄ…
@@ -110,7 +111,7 @@ A human being, reading texts, will inevitably engage in a number of *simultaneou
 \caption{The word ἐξ, at \emph{Iliad} (\textsc{ms} A 12-\emph{recto}) 1.7: one, two, or three tokens, depending on the analysis.}
 \end{figure}
 
-\noindent Most of the above examples, however, cannot be cited precisely using the canonical scheme of citation. The first half-line---μῆνιν ἄειδε θεὰ---falls *within* 1.1, but is not the same as 1.1. The first syntactical clause---μῆνιν ἄειδε θεὰ Πηληϊάδεω Ἀχιλῆος οὐλομένην,---includes all of 1.1, and the first word of 1.2. There is a noun-phrase, the direct object of the verb ἄειδε, that includes the first word of 1.1 and the first word of 1.2, but nothing in between.
+\noindent Most of the above examples, however, cannot be cited precisely using the canonical scheme of citation. The first half-line---μῆνιν ἄειδε θεὰ---falls within 1.1, but is not the same as 1.1. The first syntactical clause---μῆνιν ἄειδε θεὰ Πηληϊάδεω Ἀχιλῆος | οὐλομένην---includes all of 1.1, and the first word of 1.2. There is a noun-phrase, the direct object of the verb ἄειδε, that includes the first word of 1.1 and the first word of 1.2, but nothing in between.
 
 If we are to realize the potential of digital libraries, we need to be able to work with analyses like these *declaratively*. Possible analyses are limitless and complementary; some will cross citation-boundaries; some will be analyses of non-contiguous text. It is impractical to expect the *documentary markup* of a digital edition (e.g. \textsc{tei-xml}) to serve for analysis as well.
 
@@ -136,13 +137,15 @@ This line of a transcription of the *Iliad*, 2.4, as it appears on the Venetus A
 
 What is the *content* here? If we want to cite "the two parallel verbs", and we cite "…2.4@τιμήσῃ[1]-2.4@ὀλέσῃ[1]", as proposed above, the textual content of the electronic edition (the concatenation of the text-nodes in an \textsc{xml} document) would give us: τιμήσ\textcolor{maroon}{ῃει}, ὀλέσῃ. This does not make any sense. 
 
-And how would we cite our noun-phrase---μῆνιν … οὐλομένην? 1.1.1–1.2.1 would include all the words in between the noun μῆνιν and the participle οὐλομένην. "1.1.1 and 1.2.1" is not a citation, but two citations. 
+And how would we cite our noun-phrase---μῆνιν … οὐλομένην? 1.1@μῆνιν[1]–1.2@οὐλομένην[1] would include all the words in between the noun μῆνιν and the participle οὐλομένην. "1.1@μῆνιν[1] and 1.2@οὐλομένην[1]" is not a citation but two citations. 
 
 And so on. There is no single scheme of citation that can possibly serve the kinds of analysis that scholars employ every day.
 
 ## Analytical Exemplars
 
-Our approach is to create a new text, derived from an Edition (or Translation) that expresses a particular analysis. We call these "Analytical Exemplars". They are specifically dependent on the Edition from which they derive. The Exemplar inherits the citation-structure of the Edition. The Exemplar may *extend* the Edition's citation hierarchy to an additional level of depth.  
+Our approach is to create a new text, derived from an Edition (or Translation) that expresses a particular analysis. We call these "Analytical Exemplars". They are subordinate to and specifically dependent on the Edition from which they derive. The Exemplar inherits the citation-structure of the Edition. The Exemplar may *extend* the Edition's citation hierarchy to an additional level of depth.  
+
+("Exemplar" has always been part of the \textsc{cts} bibliographic hierarchy of: `text-group` $\rightarrow$ `work`  $\rightarrow$ `edition/translation` $\rightarrow$ `exemplar`.[@blackwell_cts_2014-1][@blackwell_cts_2014])
 
 While all of our Editions and Translations begin life as \textsc{tei-xml}, our Analytical Exemplars are created as tabular data. There is no reason these Exemplars could not be re-expressed as \textsc{tei-xml}, but we have as yet see no reason to do so. Like our Editions and Translations, the Exemplars are further processed into \textsc{rdf} statements for serving via the \textsc{Sparql} endpoint that feeds our \textsc{cts} service. 
 
@@ -150,7 +153,7 @@ While all of our Editions and Translations begin life as \textsc{tei-xml}, our A
 
 We create an Analytical Exemplar, derived from a specific version (Edition or Translation), by capturing the following data, initially in a plain-text table, and (after processing) as \textsc{rdf} statements:
 
-- **Analyzed Text** This is a \textsc{cts-urn}, with or without a substring, which may be range, identifying the passage of text analyzed in the Edition. If the text in question is an XML text contained mixed content, the 'text' here includes **the concatenation of all text-nodes in a citation unit**.
+- **Analyzed Text** This is a \textsc{cts-urn}, with or without a substring, which may be range, identifying the passage of text analyzed in the Edition. If the text in question is an \textsc{xml} text contained mixed content, the 'text' here includes **the concatenation of all text-nodes in a citation unit**.
 
 - **Analysis Record** This is a \textsc{\textsc{cite}}-\textsc{urn} identifying **uniquely** the pairing of analysis+text.
 
@@ -160,7 +163,7 @@ We create an Analytical Exemplar, derived from a specific version (Edition or Tr
 	- When the *analysis* is not unique (*e.g.* "verb", or "dactyl"),  the `Analysis Record` (a \textsc{urn}) and the `Analysis` (a \textsc{urn}) must be **different**.
 	- The *analysis* \textsc{urn} points to an object to which any desired metadata may be attached. 
 
-- **Analytical Exemplar \textsc{urn}** This is a \textsc{cts-urn} used to construct an "analytical exemplar", which is a text *derived from the version identified by the Analyzed Text \textsc{cts-urn}*, with *one additional level of citation-hierarchy*, each of whose leaf-nodes is an analysis, identified by the **Analysis \textsc{urn}** (above). The Analytical Exemplar, when processed into the \textsc{Ohco}2 data model, will act like any other \textsc{cts} text. The *text content* of each leaf node is…
+- **Analytical Exemplar \textsc{urn}** This is a \textsc{cts-urn} used to construct an "analytical exemplar", which is a text derived from the version identified by the Analyzed Text \textsc{cts-urn}, with one additional level of citation-hierarchy, each of whose leaf-nodes is an analysis, identified by the **Analysis \textsc{urn}** (above). The Analytical Exemplar, when processed into the \textsc{Ohco}2 data model, will act like any other \textsc{cts} text. The *text content* of each leaf node is…
 
 - **Text-Content** This identifies the *text-content* of the leaf-nodes of the analytical exemplar. 
 
@@ -175,8 +178,7 @@ We have the original *edition* of the text, with its canonical scheme of citatio
 
 > $\underbrace{\underbrace{urn:cts:greekLit}_\text{namespaces}:\underbrace{tlg0012}_\text{Homeric Poetry}.\underbrace{tlg001}_\text{Iliad}.\underbrace{persGrk}_\text{edition}.\underbrace{wt}_\text{exemplar}:\underbrace{1.1.1}_\text{“μῆνιν”}}_\text{cts-urn}$ 
 
-\noindent So, `urn:cts:greekLit:tlg0012.tlg001.msA.wt:1.1.1` has *text content* `μῆνιν`, and is *aligned with* `urn:cite:hmt:iliadLexMSA.1`, which might tells us that this object is a "noun", "feminine", "accustive", "singular", from the lemma "μῆνις", or even that it is the direct object of the sentence.
-
+\noindent So, `urn:cts:greekLit:tlg0012.tlg001.msA.wt:1.1.1` has *text content* `μῆνιν`. It is *aligned with* `urn:cts:greekLit:tlg0012.tlg001.msA:1.1@μῆνιν[1]`. It is *analyzed by* `urn:cite:hmt:iliadLexMSA.1`, a \textsc{cite}-Object which might tell us that this object is a "noun", "feminine", "accustive", "singular", from the lemma "μῆνις", or even that it is the direct object of the sentence.
 
 We can navigate the *exemplar* as we navigate the *edition*, and we can likewise identify or retrieve its citation-units at any level of granularity by \textsc{urn} reference.
 
@@ -184,9 +186,11 @@ Since the *exemplar* is aligned to the textual content of the *edition*, and all
 
 ## Examples
 
+The example above is so simple as to seem pointless: 1.1@μῆνιν[1] in the Edition is aligned to 1.1.1 in the Exmplar, with text-content "μῆνιν". Below, we give some examples of more complex or problematic kinds of analysis that this approach makes possible.
+
 ### Lexical Tokens
 
-The easiest case would be a traditional tokenization by lexical entities.
+The easiest case would be a traditional tokenization by lexical entities. This is a straightforward tokenization by word, allowing us to attach metadata to word-tokens.
 
 > μῆνιν ἄειδε θεὰ Πηληϊάδεω Ἀχιλῆος — *Iliad* 1.1
 
@@ -219,7 +223,7 @@ The easiest case would be a traditional tokenization by lexical entities.
 
 ### Markup Problems
 
-A "lexical-token-exemplar" might choose to ignore editorial markup; its tokens would be aligned to the Edition, and so the editorial status of any given token---unclear, supplied, *vel sim.*---could be determined. But for this analysis the text-content would simply be strings of Greek. The description of the analytical exemplar expresses the principles for its construction.
+Even a simple "tokenization by word" becomes difficult when a text has complex editorial markup. A "lexical-token-exemplar" might choose to ignore editorial markup, but because its tokens would still be aligned to the Edition, the editorial status of any given token---unclear, supplied, *vel sim.*---could be determined. But for this analysis the text-content would simply be strings of Greek. The description of the analytical exemplar expresses the principles for its construction.
 
 > μῆν`<unclear>`ιν ἄει`</unclear>`δε θεὰ Πηληϊάδεω Ἀχιλῆος — *Iliad* 1.1
 
@@ -253,7 +257,7 @@ A "lexical-token-exemplar" might choose to ignore editorial markup; its tokens w
 
 ### Metrical Feet
 
-A different tokenization, and a different analytical exemplar. This one captures metrical feet, which cross word-boundaries. The "Analysis" would be a \textsc{urn} identifying the kind of foot (dactyl or spondee, in this case).
+A different tokenization, and a different analytical exemplar. This one captures metrical feet, which cross word-boundaries. The "Analysis" would be a \textsc{urn} identifying the kind of foot (*dactyl* or *spondee*, in this case).
 
 > μῆνιν ἄειδε θεὰ Πηληϊάδεω Ἀχιλῆος — *Iliad* 1.1
 
@@ -286,7 +290,7 @@ A different tokenization, and a different analytical exemplar. This one captures
 
 ### Syntax Problem
 
-For analyzing syntax, it is common to separate certain words, so for οὔτε, the οὔ is treated as an adverb, and the τε as a coordinator. But we do not really want to do violence to the text of our edition, just to serve one particular analysis!
+For analyzing syntax, it is common to separate certain words, so for οὔτε, the οὔ is treated as an adverb, and the τε as a coordinator. One approach as been to edit the text by splitting those words into two. But breaking up Greek words in an Edition, merely to serve a single kind of analysis, is not ideal. This approach lets us keep the Greek intact, while analyzing things like οὔτε according to its parts.
 
 > ἵν᾽ οὔτε φωνὴν οὔτε του μορφὴν βροτῶν — Aeschylus, *PV* 21
 
@@ -347,7 +351,7 @@ For analyzing syntax, it is common to separate certain words, so for οὔτε, 
 | Analytical Exemplar \textsc{urn} | `urn:cts:greekLit:tlg0012.tlg001.msA.clauses:1.2.2` |
 | Text-Content | `ἣ μυρί᾽ Ἀχαιοῖς ἄλγε᾽ ἔθηκε,` | 
 
-\noindent We can unpack this. There are two clauses, identified by the *analysis \textsc{urn}s* `urn:cite:hmt:clauses.1` and `urn:cite:hmt:clauses.2`.
+\noindent This example requires some discussion. There are two clauses, identified by the *analysis \textsc{urn}s*: `urn:cite:hmt:clauses.1` and `urn:cite:hmt:clauses.2`.
 
 There are three entries in our record of these two clauses. The first two both have `urn:cite:hmt:clauses.1` as their *Analysis Record* and their *Analysis* (because in this case, the analysis is unique: the first clause of this edition of the *Iliad*.[^notTheSame])
 
@@ -372,6 +376,7 @@ The **Analytical Exemplar \textsc{urn}s** are the key for understanding why we h
 | `urn:cts:…msA.clauses:1.2.2` | ἣ μυρί᾽ Ἀχαιοῖς ἄλγε᾽ ἔθηκε, |
 | `urn:cts:…msA.clauses:1.2` | μῆνιν ἄειδε θεὰ Πηληϊάδεω Ἀχιλῆος οὐλομένην, ἣ μυρί᾽ Ἀχαιοῖς ἄλγε᾽ ἔθηκε, |
 | `urn:cts:…msA.clauses:1.1.1-1.2.1` | μῆνιν ἄειδε θεὰ Πηληϊάδεω Ἀχιλῆος οὐλομένην, |
+| `urn:cts:…msA.clauses:1.1.1-1.2.2` | μῆνιν ἄειδε θεὰ Πηληϊάδεω Ἀχιλῆος οὐλομένην, ἣ μυρί᾽ Ἀχαιοῖς ἄλγε᾽ ἔθηκε, |
 | `urn:cts:…msA.clauses:1.1-1.2` | μῆνιν ἄειδε θεὰ Πηληϊάδεω Ἀχιλῆος οὐλομένην, ἣ μυρί᾽ Ἀχαιοῖς ἄλγε᾽ ἔθηκε, |
 
 \noindent If we were to submit a `getNextUrn` request to the \textsc{cts} Service, we would get the following results:
@@ -430,13 +435,42 @@ The **Analysis \textsc{urn}** may exist only to give a unique identifier to the 
 | Date |  ??? |
 | Notes | "…" |	
 
-## Generating this Data & Processing it into \textsc{\textsc{cite}} Collections and \textsc{cts} Texts
+## Generating this Data & Processing it into \textsc{\textsc{Cite}} Collections and \textsc{Cts} Texts
 
 **There are no generic analyses.** Every specific analysis of each text is going to be unique. Any project that has undertaken even the simplest kind of tokenization knows how quickly it becomes necessary to make editorial decisions. For the *Homer Multitext* and work on editions of Aeschylus at Furman University, we have scripts that generate specific tokenizations. For the paleographic work on the *Homer Multitext* we rely on human editors to define characters, glyphs, abbreviations, and so forth, on our Homeric manuscripts. Some analyzes can be generated from elements in a \textsc{tei-xml} text (our personal-names analyses for the *\textsc{hmt}* texts is one example).
 
-Generally, there are ways to automated parts of the process, such as generating analysys-\textsc{urn}s in sequence for a table of analyses. We indend to supplement our \textsc{cts} utlities along that lines that Bridget Almas has already demonstrated extremely effectively in \textsc{sosol}, to make it easier to select passages of "analyzed text" from an Edition.  
+Generally, there are ways to automated parts of the process, such as generating analysys-\textsc{urn}s in sequence for a table of analyses. We indend to supplement our \textsc{cts} utilities along the lines that Bridget Almas has already demonstrated extremely effectively in \textsc{sosol}, to make it easier to select passages of "analyzed text" from an Edition.  
 
 Each of the examples above can be represented by a tab- or comma-delimited text file. This can then be processed to generate a \textsc{\textsc{cite}} collection and the necessary RDF to include the Analytical Exemplar in a \textsc{cts} library.
 
 We are working on incorporating these scripts to turn \textsc{orca} records into fully processed \textsc{\textsc{cite}} and \textsc{cts} data. These will be integrated into our \textsc{\textsc{cite}} Manager utility: [https://github.com/cite-architecture/citemgr](https://github.com/cite-architecture/citemgr).
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=1\linewidth]{images/complementary_models.pdf}
+\caption{Complementary models of creating a “text”: (a) discovering citation-values and associated text in an \textsc{xml} file; (b) asserting citation-values and assigning text-content to them.}
+\end{figure}
+
+## Appendices
+
+### Vocabulary
+
+An ORCA Collection is a ordered collection of Analytical Records. Each ORCA object in the collection is identified by a unique CITE URN.
+
+An Analytical Record has three properties:
+
+1. the passage analyzed, expressed as a CTS URN, 
+1. the analysis, expressed as a CITE URN, 
+1. the text result, a string value.
+
+### Standard RDF Verbs
+
+The namespace for RDF verbs expressing ORCA relationships is `cite:`.
+
+`<ORCA Object URN> cite:analyzes <passage analyzed CTS URN> .` inverse: `cite:analyzedBy`
+
+`<ORCA Object URN> cite:hasAnalysis <analysis CITE URN> .` inverse: `cite:analysisFor` 
+
+`<ORCA Object URN> cite:textResult "text result" .` inverse: `cite:textResultFor`
+
 
