@@ -16,7 +16,8 @@ tagline: Technology-independent, machine-actionable citation of scholarly resour
 description:      'Web site for citation standards, implementations of standards, and supporting tools'
 paginate_path: "/reviews/page:num"
 url:
-baseurl: 'http://cite-architecture.github.io/'
+#baseurl: 'http://cite-architecture.github.io/'
+baseurl: '/'
 
 author:
   name:           'Neel Smith'
