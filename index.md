@@ -9,9 +9,15 @@ layout: home
 
 
 - [the CITE architecture](about)
-- [CTS URNs](ctsurn) and the [Canonical Text Service](cts)
-- [CITE Object URNs](citeurn) and the [CITE Collection Service](citecoll), including extensions
-- [ORCA](orca), a service for aligned texts and analyses
+- working with **texts**:
+    - an abstract model: [OHCO2](ohco2)
+    - a notation for citation: [CTS URNs](ctsurn)
+    - services to retrieve canonical citations: the [Canonical Text Service](cts)
+- working with **objects**:
+    - a notation for citation: [CITE Object URNs](citeurn)
+    - services to retrieve canonical citations (including extensions): [CITE Collection Service](citecoll)
+- **aligning** texts and analyses:
+    - in development: ORCA, a service for aligned texts and analyses
 
 
 
