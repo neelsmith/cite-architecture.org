@@ -3,7 +3,7 @@ kramdown:
   input: GFM
 #markdown: redcarpet
 
-highlighter: pygments
+highlighter: rouge
 
 #:         true
 
@@ -33,6 +33,3 @@ links:
     url: /repos
   - title: Live specifications
     url: /living-docs
-     
-     
-
