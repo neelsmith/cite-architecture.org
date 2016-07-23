@@ -1,6 +1,6 @@
 # Dependencies
-kramdown:
-  input: GFM
+# kramdown:
+#  input: GFM
 #markdown: redcarpet
 
 highlighter: rouge
@@ -17,7 +17,7 @@ description:      'Web site for citation standards, implementations of standards
 paginate_path: "/reviews/page:num"
 url:
 #baseurl: 'http://cite-architecture.github.io/'
-baseurl: '/'
+baseurl: ''
 
 author:
   name:           'Neel Smith'
