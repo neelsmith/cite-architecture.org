@@ -6,10 +6,15 @@ layout: home
 ## Current work
 
 
-Code libraries:
+### Code libraries
 
-- `xcite`:  binaries (for JVM, or Scala JS, and including pre-packaged api docs): [jcenter](https://bintray.com/neelsmith/maven/xcite); source code: [github](https://github.com/cite-architecture/xcite).
+Released:
 
+- `xcite` (v. 1.2):  binaries (for JVM, or Scala JS, and including pre-packaged api docs): [jcenter](https://bintray.com/neelsmith/maven/xcite); source code: [github](https://github.com/cite-architecture/xcite).
+
+In active development:
+
+- `scs`: microservices for the CITE architecture, implemented with [finch/finagle](https://github.com/finagle/finch).  Source code: [github](https://github.com/cite-architecture/scs)
 
 ## Work before 2017
 
