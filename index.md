@@ -6,6 +6,11 @@ layout: home
 ## Current work
 
 
+Code libraries:
+
+- `xcite`:  binaries (for JVM, or Scala JS, and including pre-packaged api docs): [jcenter](https://bintray.com/neelsmith/maven/xcite); source code: [github](https://github.com/cite-architecture/xcite).
+
+
 ## Work before 2017
 
 ### About... ###
