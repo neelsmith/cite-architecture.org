@@ -8,14 +8,16 @@ layout: home
 
 ### Code libraries
 
+Binary releases on jcenter are cross compiled for JVM and Scala JS, and include pre-packaged api docs.
+
 Released:
 
-- `xcite` (v. 1.2):  a cross-platform library for citing scholarly resources with CTS URNs or CITE2 URNs. Binaries (for JVM, or Scala JS, and including pre-packaged api docs): [jcenter](https://bintray.com/neelsmith/maven/xcite); source code: [github](https://github.com/cite-architecture/xcite).
+- `xcite` (v. 1.2):  a cross-platform library for citing scholarly resources with CTS URNs or CITE2 URNs. Binaries: [jcenter](https://bintray.com/neelsmith/maven/xcite); source code: [github](https://github.com/cite-architecture/xcite).
 
 In active development:
 
 - `ohco2`: a cross-platform libray for working with a librry of citable texts.  Source code: [github](https://github.com/cite-architecture/ohco2)
-- `orca`: a cross-platform library for working with citale readings of citable texts
+- `orca`: a cross-platform library for working with citale readings of citable texts.  Source code: [github](https://github.com/cite-architecture/orca)
 - `scs`: microservices for the CITE architecture, implemented with [finch/finagle](https://github.com/finagle/finch).  Source code: [github](https://github.com/cite-architecture/scs)
 
 ## Work before 2017
