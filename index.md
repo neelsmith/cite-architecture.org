@@ -5,6 +5,9 @@ layout: home
 
 ## Current work
 
+### End-user applications
+
+- `CITE App`.  A single-page app requiring only a web browser to explore texts (in local files or URLs) available in CITE Exchange format.  Download precompiled `.html` binaries from the [project github repository](https://github.com/cite-architecture/CITE-App/tree/master/downloads); full source code: [github](https://github.com/cite-architecture/CITE-App).
 
 ### Code libraries
 
@@ -15,8 +18,10 @@ Released:
 - `xcite`:  a cross-platform library for citing scholarly resources with CTS URNs or CITE2 URNs. Binaries: [jcenter](https://bintray.com/neelsmith/maven/xcite); source code: [github](https://github.com/cite-architecture/xcite).
 - `ohco2`: a cross-platform library for working with citable texts. Binaries: [jcenter](https://bintray.com/neelsmith/maven/ohco2); source code: [github](https://github.com/cite-architecture/ohco2).
 - `orca`: a cross-platform library for working with citable readings of citable texts.  Binaries: [jecnter](https://bintray.com/neelsmith/maven/orca); source code: [github](https://github.com/cite-architecture/orca).
+- `scm`: a cross-platform library for managing an archive of CITE resources.  Binaries: [jcenter](https://bintray.com/neelsmith/maven/scm) ; source code: [github](https://github.com/cite-architecture/scm)
 
-In active development:
+
+In development:
 
 
 - `scs`: microservices for the CITE architecture, implemented with [finch/finagle](https://github.com/finagle/finch).  Source code: [github](https://github.com/cite-architecture/scs)
