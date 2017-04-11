@@ -17,7 +17,7 @@ Released:
 
 - `xcite`:  a cross-platform library for citing scholarly resources with CTS URNs or CITE2 URNs. Binaries: [jcenter](https://bintray.com/neelsmith/maven/xcite); source code: [github](https://github.com/cite-architecture/xcite).
 - `ohco2`: a cross-platform library for working with citable texts. Binaries: [jcenter](https://bintray.com/neelsmith/maven/ohco2); source code: [github](https://github.com/cite-architecture/ohco2).
-- `orca`: a cross-platform library for working with citable readings of citable texts.  Binaries: [jecnter](https://bintray.com/neelsmith/maven/orca); source code: [github](https://github.com/cite-architecture/orca).
+- `orca`: a cross-platform library for working with citable readings of citable texts.  Binaries: [jcenter](https://bintray.com/neelsmith/maven/orca); source code: [github](https://github.com/cite-architecture/orca).
 - `scm`: a cross-platform library for managing an archive of CITE resources.  Binaries: [jcenter](https://bintray.com/neelsmith/maven/scm) ; source code: [github](https://github.com/cite-architecture/scm)
 
 
