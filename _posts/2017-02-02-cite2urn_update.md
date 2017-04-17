@@ -19,7 +19,7 @@ No structure is defined or implied for canonically identified objects in a notio
 
     urn:cite2:hmt:msA.r1:
 
-All objects in this collection share the same structure, and possess the same properties, so, e..g., the concrete representation of folio twelve recto in this edition has the same set of properties as every other page in this college.  We can identify this concrete object as
+All objects in this collection share the same structure, and possess the same properties, so, e..g., the concrete representation of folio twelve recto in this edition has the same set of properties as every other page in this collection.  We can identify this concrete object as
 
     urn:cite2:hmt:msA.r1:12r
 

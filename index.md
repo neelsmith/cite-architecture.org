@@ -18,13 +18,14 @@ Released:
 - `xcite`:  a cross-platform library for citing scholarly resources with CTS URNs or CITE2 URNs. Binaries: [jcenter](https://bintray.com/neelsmith/maven/xcite); source code: [github](https://github.com/cite-architecture/xcite).
 - `ohco2`: a cross-platform library for working with citable texts. Binaries: [jcenter](https://bintray.com/neelsmith/maven/ohco2); source code: [github](https://github.com/cite-architecture/ohco2).
 - `orca`: a cross-platform library for working with citable readings of citable texts.  Binaries: [jcenter](https://bintray.com/neelsmith/maven/orca); source code: [github](https://github.com/cite-architecture/orca).
-- `scm`: a cross-platform library for managing an archive of CITE resources.  Binaries: [jcenter](https://bintray.com/neelsmith/maven/scm) ; source code: [github](https://github.com/cite-architecture/scm)
-
+- `scm`: a cross-platform library for managing a library of CITE resources.  Binaries: [jcenter](https://bintray.com/neelsmith/maven/scm) ; source code: [github](https://github.com/cite-architecture/scm).
+- `cex`: a cross-platform library for parsing data in CITE Exchange format.  Binaries: [jcenter](https://bintray.com/neelsmith/maven/cex); source code;  [github](https://github.com/cite-architecture/cex).
 
 In development:
 
 
 - `scs`: microservices for the CITE architecture, implemented with [finch/finagle](https://github.com/finagle/finch).  Source code: [github](https://github.com/cite-architecture/scs)
+- `citeobj`: a cross-platform library for working collections of citable data.  Source code: [github](https://github.com/cite-architecture/citeobj).
 
 ## Work before 2017
 
@@ -47,5 +48,4 @@ In development:
 
 ### Code ###
 
-- See [an overview of github repositories](repos) with work related to the CITE architecture.
-- See [live specifications](living-docs) from a selection of implementations.
+- See [an overview of github repositories](repos) with work related to the CITE architecture. (Much of this is superseded by the work listed above under "Current work.")
