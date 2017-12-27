@@ -3,6 +3,24 @@ title: The CITE Architecture
 layout: home
 ---
 
+
+
+## Fundamental concepts
+
+
+-   [the CITE architecture](about)
+-   working with **texts**:
+    -   an abstract model: [OHCO2](ohco2)
+    -   a notation for citation: [CTS URNs](ctsurn)
+    -   services to retrieve canonical citations: the [Canonical Text Service](cts)
+-   working with **objects**:
+    -   an abstract model:  [CITE2 collections](cite2)
+    -   a notation for citation: [CITE2 Object URNs](cite2urn)
+    -   services to retrieve canonical citations (including extensions): [CITE Collection Service](citecoll)
+-   **aligning** texts and analyses:
+    -   in development: ORCA, a service for aligned texts and analyses
+
+
 ## Current work
 
 ### End-user applications
@@ -29,23 +47,6 @@ In development:
 
 ## Work before 2017
 
-### About... ###
-
-
-
-- [the CITE architecture](about)
-- working with **texts**:
-    - an abstract model: [OHCO2](ohco2)
-    - a notation for citation: [CTS URNs](ctsurn)
-    - services to retrieve canonical citations: the [Canonical Text Service](cts)
-- working with **objects**:
-    - a notation for citation: [CITE Object URNs](citeurn)
-    - services to retrieve canonical citations (including extensions): [CITE Collection Service](citecoll)
-- **aligning** texts and analyses:
-    - in development: ORCA, a service for aligned texts and analyses
-
-
-
-### Code ###
+### Code
 
 - See [an overview of github repositories](repos) with work related to the CITE architecture. (Much of this is superseded by the work listed above under "Current work.")
