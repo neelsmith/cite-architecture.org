@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 title: Model of text-bearing surfaces
 ---
 
