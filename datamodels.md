@@ -4,7 +4,8 @@ layout: page
 ---
 
 
-
--   [diplomatic scholarly editions](../dse)
+-   [citable text](../ohco2) (OHCO2)
+-   [citable relations](../citerelations)
 -   [citable images](../imagemodel)
 -   [illustrated text-bearing surfaces](../tbsmodel)
+-   [diplomatic scholarly editions](../dse)
