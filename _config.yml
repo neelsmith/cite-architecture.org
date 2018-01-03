@@ -29,5 +29,3 @@ paginate:         5
 links:
   - title: News
     url: /news
-  - title: Code
-    url: /repos
