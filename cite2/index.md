@@ -16,4 +16,4 @@ Collections may or may not be intrinsically ordered.  The relation of citable ob
 ## URN notation and code libraries
 
 -   the [CITE2 URN](../cite2urn) encodes the semantics of the CITE2 model
--   [`citeobj`](../citeobj) is a platform-independent code ibrary for working with citable collections
+-   [`citeobj`](../citeobj) is a platform-independent code ibrary for working with citable collectionsh
