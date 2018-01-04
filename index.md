@@ -17,9 +17,16 @@ layout: home
     -   an abstract model:  [CITE2 collections](cite2)
     -   a notation for citation: [CITE2 Object URNs](cite2urn)
     -   services to retrieve canonical citations (including extensions): [CITE Collection Service](citecoll)
--   **aligning** texts and analyses:
-    -   in development: ORCA, a service for aligned texts and analyses
 -   an overview of [citable **data models**](datamodels)
+
+## A simple publication format
+
+-   [CITE Exchange format](citedx/CEX-spec-3.0.1) (CEX): a plain-text, line-oriented data format for serializing citable content following the models of the CITE Architecture
+
+
+
+
+
 
 ## Current work
 
