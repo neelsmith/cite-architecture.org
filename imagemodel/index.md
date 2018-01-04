@@ -27,4 +27,4 @@ Example:
 
     #!datamodels
     Collection#Model#Label#Description
-    urn:cite2:hmt:vaimg.2017a:#urn:cite2:hmt:datamodels.v1:imagemodel#Citable image model#CITE Architecture model of a citable image.  See documentation at <https://github.com/cite-architecture/imagemodel>.
+    urn:cite2:hmt:vaimg.2017a:#urn:cite2:hmt:datamodels.v1:imagemodel#Citable image model#CITE model of a citable image

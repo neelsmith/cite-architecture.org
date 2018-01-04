@@ -18,28 +18,15 @@ The URN for this model is `urn:cite2:hmt:datamodels.v1:tbsmodel`.
 Example:
 
 
-    #!citecollections
-    URN#Description#Labelling property#Ordering property#License
-    urn:cite2:hmt:msA.v1:#Pages of the Venetus A manuscriptscript#urn:cite2:hmt:msA.v1.label:#urn:cite2:hmt:msA.v1.sequence:#CC-attribution-share-alike
-
     #!citeproperties
     Property#Label#Type#Authority list
     urn:cite2:hmt:msA.v1.sequence:#Page sequence#Number#
     urn:cite2:hmt:msA.v1.urn:#URN#Cite2Urn#
     urn:cite2:hmt:msA.v1.rv:#Recto or Verso#String#recto,verso
     urn:cite2:hmt:msA.v1.label:#Label#String#
+    urn:cite2:hmt:msA.v1.defaultimg:#Default image#Cite2Urn#
 
-
-
-
-    #!citeproperties
-    Property#Label#Type#Authority list
-    urn:cite2:hmt:dse.2017a.urn:#DSE record#Cite2Urn#
-    urn:cite2:hmt:dse.2017a.label:#Label#String#
-    urn:cite2:hmt:dse.2017a.passage:#Text passage#CtsUrn#
-    urn:cite2:hmt:dse.2017a.imageroi:#Image region of interest#Cite2Urn#
-    urn:cite2:hmt:dse.2017a.surface:#Artifact surface#Cite2Urn#
 
     #!datamodels
     Collection#Model#Label#Description
-    urn:cite2:hmt:dse.2017a:#urn:cite2:dse:datamodel.v1:#DSE model#Diplomatic Scholarly Edition (DSE) model.  See documentation at <https://github.com/cite-architecture/dse>.
+    urn:cite2:hmt:msA.v1:#urn:cite2:hmt:datamodels.v1:tbsmodel#CITE model of text-bearing surfaces
