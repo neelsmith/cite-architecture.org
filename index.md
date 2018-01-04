@@ -19,7 +19,7 @@ layout: home
     -   services to retrieve canonical citations (including extensions): [CITE Collection Service](citecoll)
 -   **aligning** texts and analyses:
     -   in development: ORCA, a service for aligned texts and analyses
-
+-   an overview of [citable **data models**](datamodels)
 
 ## Current work
 
