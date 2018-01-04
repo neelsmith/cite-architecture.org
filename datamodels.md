@@ -7,7 +7,7 @@ Data models are citable objects.  The CITE Architecture defines three generic mo
 
 
 -   [citable texts](../ohco2) (OHCO2)
--   [collections of citable objects](../citeobj)
+-   [collections of citable objects](../cite2)
 -   [citable relations](../citerelations)
 
 
