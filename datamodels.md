@@ -37,6 +37,6 @@ Invidual CITE Collections may further specify a more specialized model.  Because
     urn:cite2:cite:datamodels.v1:ocho2#OHCO2 text model#Citable passages of text modelled as an ordered hierarchy of citable objects.  See <https://cite-architecture.github.io/ohco2/>
     urn:cite2:cite:datamodels.v1:citeobj#Citable collection model#Citable versioned collections of objects.  See <https://cite-architecture.github.io/citeobj/>
     urn:cite2:cite:datamodels.v1:relations#Citable relations#Citable objects related in a S-V-O statement.  See <https://cite-architecture.github.io/citerelations/>
-    urn:cite2:hmt:datamodels.v1:imagemodel#Citable images#Citable images with individually documented rights statements.  See <http://cite-architecture.github.io/imagemodel/>.
-    urn:cite2:hmt:datamodels.v1:tbsmodel#Illustrated text-bearing surfaces#An ordered collection of citable surfaces illustrated by a default citable image.  See <http://cite-architecture.github.io/tbsmodel/>.
-    urn:cite2:hmt:datamodels.v1:dse#Diplomatic scholarly edition#An ordered collection of citable surfaces illustrated by a default citable image.  See <http://cite-architecture.github.io/dse/>.
+    urn:cite2:cite:datamodels.v1:imagemodel#Citable images#Citable images with individually documented rights statements.  See <http://cite-architecture.github.io/imagemodel/>.
+    urn:cite2:cite:datamodels.v1:tbsmodel#Illustrated text-bearing surfaces#An ordered collection of citable surfaces illustrated by a default citable image.  See <http://cite-architecture.github.io/tbsmodel/>.
+    urn:cite2:cite:datamodels.v1:dse#Diplomatic scholarly edition#An ordered collection of citable surfaces illustrated by a default citable image.  See <http://cite-architecture.github.io/dse/>.
