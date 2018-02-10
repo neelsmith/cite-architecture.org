@@ -11,7 +11,7 @@ Texts can be preserved in one or more physical areas of an artifact:  a page of 
 Because we are particularly preserved with reproducible scholarship, we require each text-bearing surface to be documented by a default citable image.
 
 
-The URN for this model is `urn:cite2:hmt:datamodels.v1:tbsmodel`.
+The URN for this model is `urn:cite2:cite:datamodels.v1:tbsmodel`.
 
 ## Serialization in CEX format
 
@@ -29,4 +29,4 @@ Example:
 
     #!datamodels
     Collection#Model#Label#Description
-    urn:cite2:hmt:msA.v1:#urn:cite2:hmt:datamodels.v1:tbsmodel#CITE model of text-bearing surfaces
+    urn:cite2:hmt:msA.v1:#urn:cite2:cite:datamodels.v1:tbsmodel#CITE model of text-bearing surfaces

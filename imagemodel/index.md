@@ -9,7 +9,7 @@ The CITE Architecture defines a model for [diplomatic scholarly editions](../dse
 As a minimal model of citable images, we require that beyond an identifying URN and a human-readable caption, each image be accompanied with an individual permissions statement.
 
 
-The URN for this model is `urn:cite2:hmt:datamodels.v1:imagemodel`
+The URN for this model is `urn:cite2:cite:datamodels.v1:imagemodel`
 
 
 ## Serialization in CEX format
@@ -27,4 +27,4 @@ Example:
 
     #!datamodels
     Collection#Model#Label#Description
-    urn:cite2:hmt:vaimg.2017a:#urn:cite2:hmt:datamodels.v1:imagemodel#Citable image model#CITE model of a citable image
+    urn:cite2:hmt:vaimg.2017a:#urn:cite2:cite:datamodels.v1:imagemodel#Citable image model#CITE model of a citable image
