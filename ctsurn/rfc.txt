@@ -1,0 +1,115 @@
+Namespace registration for Canonical Text Services (CTS) URNs
+
+Namespace Identifier: cts
+
+Version: 1
+
+Date: 2018-11-27
+
+Registrant:
+
+   The CITE Architecture Project
+
+   Contact persons:
+     Christopher Blackwell (christopher.blackwell&furman.edu)
+     Neel Smith (nsmith&holycross.edu)
+
+Purpose:
+
+   CTS URNs provide permanent, canonical, scholarly references to
+   texts or passages of text associated with the unique cultural
+   phenomena that humanists study. CTS URNs allow network services
+   such as Canonical Text Services (CTS) and the CITE Service suite
+   to deliver textual content identified by a CTS URN without regard to
+   underlying document formats or storage mechanisms.
+
+   In CTS, each text is defined in terms of two
+   hierarchies: the first hierarchy, which associates a work with
+   a certain kind of group, is similar to the conceptual model of
+   the Functional Requirements for Bibliographic Records (FRBR);
+   the second hierarchy, which refers to a passage within a work,
+   provides a method for citing a particular location or "citation
+   unit". Whereas the conceptual model of FRBR aims to represent
+   bibliographic entries as they are cataloged by librarians, CTS
+   URNs aim to model works as they are cited by scholars.
+
+Syntax:
+
+   The general structure of a CTS URN is as follows:
+
+   urn:cts:SUBNAMESPACE:WORK:PASSAGE:SUBREFERENCE
+
+   Where:
+
+   o A required CTS subnamespace is a prefix that can be resolved to a unique
+     URI in a metadata request such as the GetCapabilities reply of a recognized
+     CTS service.
+
+   o A required work identifier is a set of dot-separated components
+     representing at least one of a textgroup, work, and edition
+     or a translation and examplar. Values for the work identifier
+     must be registered with the registry identified by the CTS
+     namespace component.
+
+   o An optional passage reference refers either to an individual
+     passage or to a range of passages within a work. A passage
+     reference to an individual passage is formatted as a set of
+     dot-separated components representing one or more levels of
+     the citation hierarchy defined in service metadata for that
+     work such as the TextInventory of a CTS service. A reference
+     to a range is formatted as two passage references separated by a hyphen.
+
+   o An optional subreference identifies a span within a single
+     citation unit using indexed substrings. A subreference is set
+     off form the passage reference it qualifies by the at sign
+     character '@'. A subreference may contain two parts: a literal
+     string, and an index value. If an index value is included, it
+     is enclosed in square brackets '[' ']' and follows any substring.
+     The index value must evaluate to a positive integer.
+
+   A detailed definition of CTS syntax can be found at:
+
+   http://cite-architecture.github.io/ctsurn/
+
+Assignment:
+
+   CTS URNs are assigned programmatically in accordance with the
+   policies of an authoritative registry for a given CTS subnamespace.
+
+Security and Privacy:
+
+   CTS URNs are used to identify cultural texts (and units thereof)
+   for the purpose of scholarly citation. Because such texts are public
+   resources, they do not contain private information or identifiers
+   that can be associated with persons. Therefore it is unlikely that
+   the use of CTS URNs will result in the leakage of private or
+   personal information.
+
+   Tampering with, or mis-assignment of, CTS URNs could result in
+   incorrect citations within scholarly works that refer to the
+   underlying texts or passages of text. Although such phenomena
+   could cause confusion, they are unlikely to result in security
+   vulnerabilities.
+
+Interoperability:
+
+   There are no known interoperability issues with CTS URNs as
+   deployed.
+
+Resolution:
+
+   CTS URNs are defined for the purpose of citation, not resolution.
+   Therefore, resolution is not envisioned and is out of scope for
+   this namespace registration.
+
+Documentation:
+
+   More detailed information about CTS URNs and the CTS architecture
+   can be found at:
+
+   http://cite-architecture.github.io/
+
+
+Additional Information: N/A
+
+Revision Information: N/A
