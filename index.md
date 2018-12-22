@@ -28,32 +28,25 @@ layout: home
 
 
 
-## Current work
+## Code
 
-### End-user applications
 
-- `CITE App`.  A single-page app requiring only a web browser to explore texts (in local files or URLs) available in CITE Exchange format.  Download precompiled `.html` binaries from the [project github repository](https://github.com/cite-architecture/CITE-App/tree/master/downloads); full source code: [github](https://github.com/cite-architecture/CITE-App).
 
 ### Code libraries
 
-Binary releases on jcenter are cross compiled for JVM and Scala JS, and include pre-packaged api docs.
+Source code is hosted on github.  Binary releases on bintray are also published to jcenter.  Binary releases are cross compiled for the JVM (and should be usable from other JVM languages like Java, Kotlin, Groovy or Clojure) and for Scala JS, and include pre-packaged api docs.
 
-Released:
+See automatically generated listings:
 
-- `xcite`:  a cross-platform library for citing scholarly resources with CTS URNs or CITE2 URNs. Binaries: [jcenter](https://bintray.com/neelsmith/maven/xcite); source code: [github](https://github.com/cite-architecture/xcite).
-- `ohco2`: a cross-platform library for working with citable texts. Binaries: [jcenter](https://bintray.com/neelsmith/maven/ohco2); source code: [github](https://github.com/cite-architecture/ohco2).
-- `orca`: a cross-platform library for working with citable readings of citable texts.  Binaries: [jcenter](https://bintray.com/neelsmith/maven/orca); source code: [github](https://github.com/cite-architecture/orca).
-- `scm`: a cross-platform library for managing a library of CITE resources.  Binaries: [jcenter](https://bintray.com/neelsmith/maven/scm) ; source code: [github](https://github.com/cite-architecture/scm).
-- `cex`: a cross-platform library for parsing data in CITE Exchange format.  Binaries: [jcenter](https://bintray.com/neelsmith/maven/cex); source code;  [github](https://github.com/cite-architecture/cex).
+-  [sorted by function](libs/citelibs) (most fundamental functions listed first)
+-  [sorted by most recent release date](libs/itebydate) (most recent listed first)
 
-In development:
+### Network services
+
+- `CITE Services` (an Akka microservice).  URN-aware microservices for retrieving and querying citable content.  Clone the [project github repository](https://github.com/cite-architecture/scs-akka.git), build a `.jar`, and run it with `java -jar scs.jar`.
 
 
-- `scs`: microservices for the CITE architecture, implemented with [finch/finagle](https://github.com/finagle/finch).  Source code: [github](https://github.com/cite-architecture/scs)
-- `citeobj`: a cross-platform library for working collections of citable data.  Source code: [github](https://github.com/cite-architecture/citeobj).
+### End-user applications
 
-## Work before 2017
 
-### Code
-
-- See [an overview of github repositories](repos) with work related to the CITE architecture. (Much of this is superseded by the work listed above under "Current work.")
+- `CITE App`.  A single-page app requiring only a web browser to explore texts (in local files or URLs) available in CITE Exchange format.  Download precompiled `.html` binaries from the [project github repository](https://github.com/cite-architecture/CITE-App/tree/master/downloads); full source code: [github](https://github.com/cite-architecture/CITE-App).
