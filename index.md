@@ -39,7 +39,7 @@ Source code is hosted on github.  Binary releases on bintray are also published 
 See automatically generated listings:
 
 -  [sorted by function](libs/citelibs) (most fundamental functions listed first)
--  [sorted by most recent release date](libs/itebydate) (most recent listed first)
+-  [sorted by most recent release date](libs/citebydate) (most recent listed first)
 
 ### Network services
 
