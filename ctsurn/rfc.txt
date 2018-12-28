@@ -46,7 +46,11 @@ Syntax:
      URI in a metadata request such as the GetCapabilities reply of a recognized
      CTS service.  The registry of CTS subnamespaces is maintained through the institutional
      repository of the College of the Holy Cross at http://crossworks.holycross.edu/cts-subnamespaces.
-     Versions of this registry are numbered following the principle of semantic versioning. Major numbers are incremented when one or more records are deprecated; minor versions are incremented when new records are added; patch versions are incremented when associated information is modi ed without change to the mapping of subnamespace abbreviation to full URI.
+     Versions of this registry are numbered following the principle of semantic versioning.
+     Major numbers are incremented when one or more records are deprecated;
+     minor versions are incremented when new records are added;
+     patch versions are incremented when associated information is modifed
+     without change to the mapping of subnamespace abbreviation to full URI.
 
 
    o A required work identifier is a set of dot-separated components
