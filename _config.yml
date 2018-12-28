@@ -15,7 +15,7 @@ title:            The CITE Architecture
 tagline: Technology-independent, machine-actionable citation of scholarly resources
 description:      'Web site for citation standards, implementations of standards, and supporting tools'
 paginate_path: "/reviews/page:num"
-url:
+url: 'http://cite-architecture.org'
 #baseurl: 'http://cite-architecture.github.io/'
 baseurl: ''
 
