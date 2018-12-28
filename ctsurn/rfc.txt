@@ -4,7 +4,7 @@ Namespace Identifier: cts
 
 Version: 1
 
-Date: 2018-11-27
+Date: 2018-12-28
 
 Registrant:
 
@@ -43,11 +43,13 @@ Syntax:
 
    o A required CTS subnamespace is a prefix that can be resolved to a unique
      URI in a metadata request such as the GetCapabilities reply of a recognized
-     CTS service.
+     CTS service.  The registry of CTS subnamespaces is maintained through the institutional
+     repository of the College of the Holy Cross at http://crossworks.holycross.edu/cts-subnamespaces
+
 
    o A required work identifier is a set of dot-separated components
      representing at least one of a textgroup, work, and edition
-     or a translation and examplar. Values for the work identifier
+     or a translation, and exemplar. Values for the work identifier
      must be registered with the registry identified by the CTS
      namespace component.
 
@@ -69,7 +71,7 @@ Syntax:
 
    A detailed definition of CTS syntax can be found at:
 
-   http://cite-architecture.github.io/ctsurn/
+   http://cite-architecture.org/ctsurn/
 
 Assignment:
 
@@ -107,7 +109,7 @@ Documentation:
    More detailed information about CTS URNs and the CTS architecture
    can be found at:
 
-   http://cite-architecture.github.io/
+   http://cite-architecture.org/
 
 
 Additional Information: N/A
