@@ -1,0 +1,118 @@
+
+Namespace registration for CITE2 URNs
+
+Namespace Identifier: cite2
+
+Version: 1
+
+Date: 2019-01-02
+
+Registrant:
+
+   The CITE Architecture Project
+
+   Contact persons:
+     Christopher Blackwell (christopher.blackwell&furman.edu)
+     Neel Smith (nsmith&holycross.edu)
+
+Purpose:
+
+   CITE2 URNs provide permanent, canonical, scholarly references to
+   discrete objects and concepts associated with the unique cultural
+   phenomena that humanists study. CITE2 URNs allow network services
+   such as the CITE Service suite to deliver content identified by a
+   CITE2 URN without regard to underlying document formats or
+   storage mechanisms.
+
+   In the CITE2 model, citable objects are identified as unique objects
+   in versioned collections.  A collection may be referred to either in
+   the abstract as a notional collection, or concretely as a specific
+   version of a notional collection. Each version of a collection defines
+   a set of properties which may or may not be identical across versions,
+   but apply to all objects within a given version. In this way, individual
+   objects may be canonically cited either as part of a notional or
+   concrete collection, but individual properties can only be cited as
+   part of a specific version of a collection.
+
+Syntax:
+
+   The general structure of a CITE2 URN is as follows:
+
+   urn:cite2:SUBNAMESPACE:COLLECTION:OBJECT@SUBREFERENCE
+
+   Where:
+
+   o A required CITE2 subnamespace is a prefix that can be resolved to a unique
+     URI in a metadata request.  The registry of CITE2 subnamespaces is maintained
+     through the institutional repository of the College of the Holy Cross at
+     http://crossworks.holycross.edu/cite2-subnamespaces.
+     Versions of this registry are numbered following the principle of semantic versioning:
+     major numbers are incremented when one or more records are deprecated;
+     minor versions are incremented when new records are added;
+     patch versions are incremented when associated information is modifed
+     without change to the mapping of subnamespace abbreviation to full URI.
+
+   o A required work identifier is a set of dot-separated components
+     representing at least one of a collection, a version, and a property.
+     Values for the work identifier must be registered with the registry
+     identified by the CITE2 subnamespace component.
+
+   o An optional object reference limits the semantic scope of the citation to a specific
+     object.  When the object hierarchy identifies a notional or specific version of
+     a collection, the object reference limits the reference to single object.  When
+     the object hierarchy identifies a specific property, the object reference limits
+     the reference to the specified property of the specified object.  In ordered collections,
+     a reference to a range of objects is formatted as two object references separated
+     by a hyphen.
+
+   o An optional subreference may further extend the identifier with a reference to
+     additional qualifying information specific to the individual collection, such as
+     regions of interest in an image.  The subreference is set off from the object
+     it qualifies by the at sign character '@'.
+
+   A detailed definition of CITE2 syntax can be found at:
+
+   http://cite-architecture.org/cite2urn/
+
+Assignment:
+
+   CITE2 URNs are assigned programmatically in accordance with the
+   policies of an authoritative registry for a given CITE2 subnamespace.
+
+Security and Privacy:
+
+   CITE2 URNs are used to identify cultural objects and concepts
+   for the purpose of scholarly citation. Because such materials are public
+   resources, they do not contain private information or identifiers
+   that can be associated with persons. Therefore it is unlikely that
+   the use of CITE2 URNs will result in the leakage of private or
+   personal information.
+
+   Tampering with, or mis-assignment of, CITE2 URNs could result in
+   incorrect citations within scholarly works that refer to the
+   underlying objects or concepts. Although such phenomena
+   could cause confusion, they are unlikely to result in security
+   vulnerabilities.
+
+Interoperability:
+
+   There are no known interoperability issues with CITE2 URNs as
+   deployed.
+
+Resolution:
+
+   CITE2 URNs are defined for the purpose of citation, not resolution.
+   Therefore, resolution is not envisioned and is out of scope for
+   this namespace registration.
+
+Documentation:
+
+   More detailed information about CTS URNs and the CTS architecture
+   can be found at:
+
+   http://cite-architecture.org/
+
+
+Additional Information: N/A
+
+Revision Information: N/A
