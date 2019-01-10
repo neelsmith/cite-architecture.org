@@ -36,10 +36,8 @@ layout: home
 
 Source code is hosted on github.  Binary releases on bintray are also published to jcenter.  Binary releases are cross compiled for the JVM (and should be usable from other JVM languages like Java, Kotlin, Groovy or Clojure) and for Scala JS, and include pre-packaged api docs.
 
-See automatically generated listings:
+See automatically generated [summaries of libraries including API documentation](libs).
 
--  [sorted by function](libs/citelibs) (most fundamental functions listed first)
--  [sorted by most recent release date](libs/citebydate) (most recent listed first)
 
 ### Network services
 
