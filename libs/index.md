@@ -12,8 +12,8 @@ The tables linked here list a set of libraries written in Scala for working with
 
 ## API docs
 
-- [xcite](api-docs/xcite/edu/holycross/shot/cite/index.html) (version 3.7.0)
-- [ohco2](api-docs/ohco2/edu/holycross/shot/ohco2/index.html) (version 10.11.1)
-- [citeobj](api-docs/citeobj/edu/holycross/shot/citeobj/index.html) (version 7.2.0)
-- [scm](api-docs/scm/edu/holycross/shot/scm/index.html) (version 6.2.0)
-- [dse](api-docs/dse/edu/holycross/shot/dse/index.html) (version 4.2.1)
+- [xcite](api-docs/xcite/edu/holycross/shot/cite/index.html) (version **3.7.0**)
+- [ohco2](api-docs/ohco2/edu/holycross/shot/ohco2/index.html) (version **10.11.1**)
+- [citeobj](api-docs/citeobj/edu/holycross/shot/citeobj/index.html) (version **7.2.0**)
+- [scm](api-docs/scm/edu/holycross/shot/scm/index.html) (version **6.2.0**)
+- [dse](api-docs/dse/edu/holycross/shot/dse/index.html) (version **4.2.1**)
