@@ -5,7 +5,7 @@ Namespace Identifier: cite2
 
 Version: 1
 
-Date: 2019-01-02
+Date: 2019-03-01
 
 Registrant:
 
@@ -25,14 +25,16 @@ Purpose:
    storage mechanisms.
 
    In the CITE2 model, citable objects are identified as unique objects
-   in versioned collections.  A collection may be referred to either in
-   the abstract as a notional collection, or concretely as a specific
-   version of a notional collection. Each version of a collection defines
-   a set of properties which may or may not be identical across versions,
-   but apply to all objects within a given version. In this way, individual
-   objects may be canonically cited either as part of a notional or
-   concrete collection, but individual properties can only be cited as
-   part of a specific version of a collection.
+   in versioned collections.  Analogous to the concept in the CTS URN model
+   of a notional text that can be instantiated in multiple concrete versions,
+   a CITE2 collection may be referred to either as a notional collection,
+   or concretely as a specific version of a notional collection. Individual
+   objects may be canonically cited as part of either a notional collection or
+   concrete version of a collection.
+
+   Each concrete version of a collection defines a set of properties which
+   may or may not be identical across other concrete versions,  but apply to
+   all objects within a specified version.
 
 Syntax:
 
@@ -52,12 +54,12 @@ Syntax:
      patch versions are incremented when associated information is modifed
      without change to the mapping of subnamespace abbreviation to full URI.
 
-   o A required work identifier is a set of dot-separated components
+   o A required collection identifier is a set of dot-separated components
      representing at least one of a collection, a version, and a property.
      Values for the work identifier must be registered with the registry
      identified by the CITE2 subnamespace component.
 
-   o An optional object reference limits the semantic scope of the citation to a specific
+   o An optional object identifier limits the semantic scope of the citation to a specific
      object.  When the object hierarchy identifies a notional or specific version of
      a collection, the object reference limits the reference to single object.  When
      the object hierarchy identifies a specific property, the object reference limits
